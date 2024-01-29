@@ -18,9 +18,9 @@ export const TITLE_SUFFIX = 'Slick template with Svelte';
 
 export const NavBar = {
 	home: 'Home',
-	personal: 'Projects',
+	personal: 'Projets',
 	career: 'Experiences',
-	resume: 'Resume',
+	resume: 'CV',
 	skills: 'Skills',
 	Education: 'Education'
 };
@@ -46,15 +46,15 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Matyas',
+	lastName: 'Ricci',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Apprenti Technicien Réparation - Développeur Auto-Didacte & Formé',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/Zayonx-0' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
+			link: 'https://www.linkedin.com/in/matyas-ricci/'
 		},
 		{
 			platform: Platform.Twitter,
@@ -62,11 +62,11 @@ export const HOME: HomePageParams = {
 		},
 		{
 			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://stackoverflow.com/users/9875460/zayonx'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'matyas.ricci.pro@gmail.com'
 		},
 		{
 			platform: Platform.Youtube,
@@ -80,7 +80,7 @@ export const HOME: HomePageParams = {
 };
 
 export const PROJECTS: ProjectPageParams = {
-	title: 'Projects',
+	title: 'Projets',
 	items: MY_PROJECTS
 };
 
@@ -95,12 +95,12 @@ export const SKILLS: SkillsPageParams = {
 };
 
 export const RESUME: ResumePageParams = {
-	title: 'Resumé',
+	title: 'CV',
 	item: ''
 };
 
 export const SEARCH: SearchPageParams = {
-	title: 'Search'
+	title: 'Rechercher'
 };
 
 export const EDUCATION: EducationPageParams = {
