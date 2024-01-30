@@ -4,6 +4,12 @@ import svelte from './md/svelte.md?raw';
 
 const s = (skill: Skill) => skill;
 
+
+// TODO : Ajouter des commpétences GEII dans cette catégorie
+// TODO : Ajouter des compétences en Electronique et Electrotechnique
+// Prendre depuis le programme de formation du BUT GEII
+// Lier les compétences aux projets associés
+
 export type ArrayElementType<ArrayType extends readonly unknown[]> =
 	ArrayType extends readonly (infer ElementType)[] ? ElementType : never;
 
