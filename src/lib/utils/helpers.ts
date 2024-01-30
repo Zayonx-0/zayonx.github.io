@@ -53,17 +53,17 @@ export function getTimeDiff(date1: Date, date2 = new Date(Date.now() + 1000 * 60
 	let u = 'day';
 
 	if (duration.as('days') <= 7) {
-		u = 'jour';
-		n = duration.as('jours');
+		u = 'day';
+		n = duration.as('days');
 	} else if (duration.as('months') <= 1) {
-		u = 'semaine';
-		n = duration.as('semaines');
+		u = 'week';
+		n = duration.as('weeks');
 	} else if (duration.as('years') <= 1) {
-		u = 'mois';
-		n = duration.as('mois');
+		u = 'month';
+		n = duration.as('months');
 	} else {
-		u = 'an';
-		n = duration.as('ans');
+		u = 'year';
+		n = duration.as('years');
 	}
 
 	n = Math.trunc(n);
