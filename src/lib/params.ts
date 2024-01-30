@@ -105,5 +105,5 @@ export const SEARCH: SearchPageParams = {
 
 export const EDUCATION: EducationPageParams = {
 	items: MY_EDUCATIONS,
-	title: 'Education'
+	title: 'Études'
 };
