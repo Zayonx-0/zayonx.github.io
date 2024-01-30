@@ -65,14 +65,15 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'Projet3',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Projet Encodage/Decodage code morse',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Projet Python consistant au décodage de code morse contenu dans un fichier audio / Encodage depuis un texte vers un fichier audio.',
 		links: [{ to: 'https://github.com/Zayonx-0/Morse-Code', label: 'GitHub' }],
 		logo: Assets.Svelte,
 		name: 'Slick Portfolio',
 		period: {
-			from: new Date()
+			from: new Date(),
+			to: new Date()
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
 		type: 'Website Template',
