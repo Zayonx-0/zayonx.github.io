@@ -62,7 +62,15 @@ const MY_SKILLS = [
 		description: svelte,
 		logo: Assets.Svelte,
 		name: 'Svelte'
-	})
+	}),
+	s({
+		slug: 'Python',
+		color: 'Yellow',
+		description:
+			`Développeur python autodidacte - Développement de projets personnels et scolaires.`,
+		logo: Assets.Python,
+		name: 'Python'
+	}),
 ];
 
 export default MY_SKILLS;
