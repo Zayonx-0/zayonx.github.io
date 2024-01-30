@@ -14,7 +14,7 @@ import {
 } from './types';
 import { Icons } from './utils';
 
-export const TITLE_SUFFIX = 'Matyas Ricci - Développeur';
+export const TITLE_SUFFIX = 'Matyas Ricci - Technicien & Développeur';
 
 export const NavBar = {
 	home: 'Home',

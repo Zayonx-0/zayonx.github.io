@@ -71,6 +71,30 @@ const MY_SKILLS = [
 		logo: Assets.Python,
 		name: 'Python'
 	}),
+	s({
+		slug: 'C',
+		color: 'blue',
+		description:
+			`Développeur C autodidacte - Développement de projets personnels et scolaires.`,
+		logo: Assets.C,
+		name: 'C'
+	}),
+	s({
+		slug: 'C++',
+		color: 'blue',
+		description:
+			`Développeur C++ autodidacte - Développement de projets personnels et scolaires.`,
+		logo: Assets.Cpp,
+		name: 'C++'
+	}),
+	s({
+		slug: 'Java',
+		color: 'red',
+		description:
+			`Développeur Java autodidacte - Développement de projets personnels et scolaires.`,
+		logo: Assets.Java,
+		name: 'Java'
+	}),
 ];
 
 export default MY_SKILLS;
