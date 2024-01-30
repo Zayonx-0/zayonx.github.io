@@ -25,15 +25,15 @@ const MY_PROJECTS: Array<Project> = [
 		description:
 			'Portfolio réalisé avec SvelteKit et TailwindCSS.',
 		shortDescription:
-			'Portfolio réalisé avec SvelteKit et TailwindCSS. Projet de Culture et Communication (BUT 3 GEII)',
+			'Portfolio WEB - réalisé avec SvelteKit et TailwindCSS. Projet de Culture et Communication (BUT 3 GEII)',
 		links: [{ to: 'https://github.com/Zayonx-0/zayonx-0.github.io', label: 'GitHub' }],
 		logo: Assets.Svelte,
 		name: 'Projet Portfolio',
 		period: {
-			from: new Date(2023, 1, 19), to: new Date()
+			from: new Date(2024, 1, 19), to: new Date()
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('svelte', 'ts', 'tailwind', 'sass', 'typescript'),
+		type: 'Portfolio Web',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -69,11 +69,11 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Projet Python consistant au décodage de code morse contenu dans un fichier audio / Encodage depuis un texte vers un fichier audio.',
 		links: [{ to: 'https://github.com/Zayonx-0/Morse-Code', label: 'GitHub' }],
-		logo: Assets.Svelte,
+		logo: Assets.Python,
 		name: 'Decodage & Encodage Morse',
 		period: {
-			from: new Date(),
-			to: new Date()
+			from: new Date(2021, 3, 18),
+			to: new Date(2021, 5, 20)
 		},
 		skills: getSkills('Python'),
 		type: 'Projet Python',
