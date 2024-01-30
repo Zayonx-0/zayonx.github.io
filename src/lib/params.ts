@@ -22,7 +22,7 @@ export const NavBar = {
 	career: 'Experiences',
 	resume: 'CV',
 	skills: 'Skills',
-	Education: 'Education'
+	Education: 'Études'
 };
 
 export const getPlatfromIcon = (platform: Platform): Icons => {
