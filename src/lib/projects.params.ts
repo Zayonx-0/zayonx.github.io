@@ -70,13 +70,13 @@ const MY_PROJECTS: Array<Project> = [
 			'Projet Python consistant au décodage de code morse contenu dans un fichier audio / Encodage depuis un texte vers un fichier audio.',
 		links: [{ to: 'https://github.com/Zayonx-0/Morse-Code', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'Decodage & Encodage Morse',
 		period: {
 			from: new Date(),
 			to: new Date()
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('Python'),
+		type: 'Projet Python',
 		screenshots: [
 			{
 			label: 'screen 1',
