@@ -12,7 +12,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		period: { from: new Date(2020, 0, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'Anglais', 'Electronique', 'Electrotechnique', 'Maths']
 	},
 	{
 		degree: 'Baccalauréat options Maths, Numérique et Sciences Informatiques, Physique-Chimie',
@@ -24,6 +24,6 @@ export const MY_EDUCATIONS: Array<Education> = [
 		period: { from: new Date(2018, 9, 1), to: new Date(2021, 8, 4)},
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Python', 'English', 'Computer Architecture', 'Algorithms and Data structures', 'C', 'DataBase', 'Web Development']
+		subjects: ['Python', 'Architecture des Ordinateurs', 'Algorithmes et Structures des Données', 'C++', 'Base de Données', 'Développement Web', 'Anglais']
 	}
 ];
