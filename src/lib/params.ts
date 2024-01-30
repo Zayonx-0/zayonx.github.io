@@ -19,7 +19,7 @@ export const TITLE_SUFFIX = 'Matyas Ricci - Technicien & Développeur';
 export const NavBar = {
 	home: 'Home',
 	personal: 'Projets',
-	career: 'Experiences',
+	career: 'Expériences',
 	resume: 'CV',
 	skills: 'Skills',
 	Education: 'Études'
@@ -85,7 +85,7 @@ export const PROJECTS: ProjectPageParams = {
 };
 
 export const EXPERIENCES: ExperiencePageParams = {
-	title: 'Experiences',
+	title: 'Expériences',
 	items: MY_EXPERIENCES
 };
 
