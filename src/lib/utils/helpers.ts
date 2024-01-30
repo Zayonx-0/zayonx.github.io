@@ -50,20 +50,20 @@ export function getTimeDiff(date1: Date, date2 = new Date(Date.now() + 1000 * 60
 	const duration = dayjs.duration(d2.diff(d1));
 
 	let n = 0;
-	let u = 'day';
+	let u = 'jour';
 
 	if (duration.as('days') <= 7) {
-		u = 'day';
+		u = 'jour';
 		n = duration.as('days');
 	} else if (duration.as('months') <= 1) {
 		u = 'week';
 		n = duration.as('weeks');
-	} else if (duration.as('years') <= 1) {
-		u = 'month';
-		n = duration.as('months');
+	} else if (duration.as('ans') <= 1) {
+		u = 'mois';
+		n = duration.as('mois');
 	} else {
-		u = 'year';
-		n = duration.as('years');
+		u = 'an';
+		n = duration.as('ans');
 	}
 
 	n = Math.trunc(n);
