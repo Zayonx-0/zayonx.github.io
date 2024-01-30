@@ -60,9 +60,9 @@ const MY_PROJECTS: Array<Project> = [
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
 		]
-	}/*,
+	},
 	{
-		slug: 'Projet Decodage / Encodage Morse',
+		slug: 'Projet Decodage & Encodage Morse',
 		color: '#ff3e00',
 		description:
 			'Projet Python d\'Encodage/Decodage de code morse (audio <-> texte)',
@@ -84,7 +84,7 @@ const MY_PROJECTS: Array<Project> = [
 			}
 		]
 
-	}*/
+	}
 ];
 
 export default MY_PROJECTS;
