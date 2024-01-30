@@ -4,29 +4,29 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'Projet1',
 		color: '#5e95e3',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/Zayonx-0/zayonx-0.github.io', label: 'GitHub' }],
 		logo: Assets.Unknown,
 		name: 'Slick Portfolio',
 		period: {
-			from: new Date()
+			from: new Date(2023, 11, 1)
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
 		type: 'Website Template'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'Projet2',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Portfolio réalisé avec SvelteKit et TailwindCSS.',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'Portfolio réalisé avec SvelteKit et TailwindCSS. Projet de Culture et Communication (BUT 3 GEII)',
+		links: [{ to: 'https://github.com/Zayonx-0/zayonx-0.github.io', label: 'GitHub' }],
 		logo: Assets.Svelte,
 		name: 'Slick Portfolio',
 		period: {
@@ -60,6 +60,29 @@ const MY_PROJECTS: Array<Project> = [
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
 		]
+	},
+	{
+		slug: 'Projet3',
+		color: '#ff3e00',
+		description:
+			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+		shortDescription:
+			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+		links: [{ to: 'https://github.com/Zayonx-0/Morse-Code', label: 'GitHub' }],
+		logo: Assets.Svelte,
+		name: 'Slick Portfolio',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		type: 'Website Template',
+		screenshots: [
+			{
+			label: 'screen 1',
+			src:'https://i.pinimg.com/originals/0f/c3/94/0fc3944e3f94b65ef9f215c4c53fa3d3.jpg'
+			}
+		]
+
 	}
 ];
 
