@@ -12,7 +12,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Projet réalisé en entreprise, consistant à la réalisation d\'un outil de test de débit internet.',
 		links: [{ to: 'https://github.com/Zayonx-0/zayonx-0.github.io', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'Projet "NetTest"',
 		period: {
 			from: new Date(2023, 11, 1)
 		},
