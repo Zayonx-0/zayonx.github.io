@@ -16,7 +16,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date(2023, 11, 1)
 		},
-		skills: getSkills('Python'),
+		skills: getSkills('Python', 'Linux'),
 		type: 'NetTest'
 	},
 	{
