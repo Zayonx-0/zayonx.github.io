@@ -17,7 +17,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2023, 11, 1)
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		type: 'Emplacement Projet 1'
 	},
 	{
 		slug: 'Projet Portfolio',
@@ -30,7 +30,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Svelte,
 		name: 'Projet Portfolio',
 		period: {
-			from: new Date(2024, 1, 19), to: new Date()
+			from: new Date(2024, 1, 19), to: new Date(2024, 2, 19)
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass', 'typescript'),
 		type: 'Portfolio Web',
