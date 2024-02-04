@@ -4,20 +4,20 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'Projet1',
+		slug: 'Projet "NetTest"',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Projet réalisé en entreprise, consistant à la réalisation d\'un outil de test de débit internet. Conçut pour être utilisé par les techniciens de l\'entreprise. Réalisé avec Python ainsi que l\'outil de test "Iperf".',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Projet réalisé en entreprise, consistant à la réalisation d\'un outil de test de débit internet.',
 		links: [{ to: 'https://github.com/Zayonx-0/zayonx-0.github.io', label: 'GitHub' }],
 		logo: Assets.Unknown,
 		name: 'Slick Portfolio',
 		period: {
 			from: new Date(2023, 11, 1)
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Emplacement Projet 1'
+		skills: getSkills('Python'),
+		type: 'NetTest'
 	},
 	{
 		slug: 'Projet Portfolio',

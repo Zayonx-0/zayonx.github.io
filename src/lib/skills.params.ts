@@ -101,6 +101,14 @@ const MY_SKILLS = [
 		logo: Assets.Java,
 		name: 'Java'
 	}),
+	s({
+		slug: 'Linux',
+		color: 'green',
+		description:
+			`Familier avec les systèmes Linux - Utilisation de distributions Linux pour le développement.`,
+		logo: Assets.Unknown,
+		name: 'Linux'
+	}),
 ];
 
 export default MY_SKILLS;
