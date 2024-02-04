@@ -68,7 +68,7 @@ export function getTimeDiff(date1: Date, date2 = new Date(Date.now() + 1000 * 60
 
 	n = Math.trunc(n);
 
-	return `${Math.trunc(n)} ${u}${n > 1 ? 's' : ''}`;
+	return `${Math.trunc(n)} ${u}${n > 1 && u != "mois" ? 's' : ''}`;
 }
 
 type ItemOrSkill = Item | Skill;
