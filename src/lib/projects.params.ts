@@ -135,7 +135,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 			label: 'Strucure de la base de données SQL',
-			src:'https://prnt.sc/JmwNBanjVIPs'
+			src:'https://i.imgur.com/SDVlxb5.png'
 			},
 			{
 			label: 'Page RechercheAeroport',
