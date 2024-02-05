@@ -165,7 +165,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2021, 2, 18),
 			to: new Date(2021, 6, 20)
 		},
-		skills: getSkills('C++', 'Arduino', 'Concevoir', 'Implanter', 'Verifier'),
+		skills: getSkills('C++', 'arduino', 'Concevoir', 'Implanter', 'Verifier'),
 		type: 'Projet Robot',
 		screenshots: [
 			{
@@ -182,13 +182,13 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Conception d\'une lumière intelligente',
 		links: [{ to: 'https://github.com/Zayonx-0/SmartLight', label: 'GitHub'}, { to: 'https://github.com/Zayonx-0/SmartLight/blob/main/Compte%20rendu%20activite%CC%81%204%20RICCI%20Matyas%20H.pdf', label: 'Compte rendu'}],
-		logo: Assets.Python,
+		logo: Assets.Arduino,
 		name: 'Projet "SmartLight"',
 		period: {
 			from: new Date(2017, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('Arduino', 'Concevoir', 'Implanter', 'Electronique', 'Verifier', 'Git'),
+		skills: getSkills('arduino', 'Concevoir', 'Implanter', 'Electronique', 'Verifier', 'Git'),
 		type: 'Projet Carte "SmartLight"',
 	},
 	{
@@ -199,7 +199,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Projet Conception d\'une télécommande sonore',
 		links: [{ to: 'https://github.com/Zayonx-0/Telecommande_Sonore/blob/main/Compte_Rendu_Chevalier_Bots_Ricci_Phan_GroupeF.pdf', label: 'Compt Rendu' }],
-		logo: Assets.Python,
+		logo: Assets.Unknown,
 		name: 'Projet "Télécommande sonore"',
 		period: {
 			from: new Date(2017, 3, 18),
