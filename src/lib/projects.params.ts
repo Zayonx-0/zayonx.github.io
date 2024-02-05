@@ -18,7 +18,21 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date()
 		},
 		skills: getSkills('Python', 'Linux', 'Concevoir'),
-		type: 'NetTest'
+		type: 'NetTest',
+		screenshots: [
+			{
+				label: 'Programme en cours de fonctionnement',
+				src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmIz-Xq-aFCktl4o-SzvaIjCHtffBeoNfUw&usqp=CAU'
+			},
+			{
+				label: 'Questions posés à l\'utilisateur pour la configuration du test',
+				src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmIz-Xq-aFCktl4o-SzvaIjCHtffBeoNfUw&usqp=CAU'
+			},
+			{
+				label: 'Fichier PDF généré par le programme, récapitulant les résultats du test',
+				src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmIz-Xq-aFCktl4o-SzvaIjCHtffBeoNfUw&usqp=CAU'
+			}
+		]
 	},
 	{
 		slug: 'Projet Portfolio',
