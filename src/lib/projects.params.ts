@@ -14,7 +14,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Python,
 		name: 'Projet "NetTest"',
 		period: {
-			from: new Date(2023, 11, 1)
+			from: new Date(2023, 3, 1),
+			to: new Date()
 		},
 		skills: getSkills('Python', 'Linux', 'Concevoir'),
 		type: 'NetTest'
@@ -97,7 +98,7 @@ const MY_PROJECTS: Array<Project> = [
 		name: 'Projet "tf2-automatic"',
 		period: {
 			from: new Date(2017, 3, 18),
-			to: new Date(2021, 5, 20)
+			to: new Date(2022, 5, 20)
 		},
 		skills: getSkills('NodeJs', 'JSON'),
 		type: 'tf2-automatic',
@@ -127,8 +128,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.sql,
 		name: 'Projet "SQL Base de données Vol"',
 		period: {
-			from: new Date(2021, 3, 18),
-			to: new Date(2021, 5, 20)
+			from: new Date(2024, 1, 18),
+			to: new Date(2024, 2, 4)
 		},
 		skills: getSkills('SQL', 'PHP', 'Verifier'),
 		type: 'Projet SQL',
@@ -185,8 +186,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Arduino,
 		name: 'Projet "SmartLight"',
 		period: {
-			from: new Date(2017, 3, 18),
-			to: new Date(2021, 5, 20)
+			from: new Date(2021, 9, 1),
+			to: new Date(2021, 12, 8)
 		},
 		skills: getSkills('arduino', 'Concevoir', 'Implanter', 'Electronique', 'Verifier', 'Git'),
 		type: 'Projet Carte "SmartLight"',
@@ -202,8 +203,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Unknown,
 		name: 'Projet "Télécommande sonore"',
 		period: {
-			from: new Date(2017, 3, 18),
-			to: new Date(2021, 5, 20)
+			from: new Date(2012, 3, 18),
+			to: new Date(2022, 6, 24)
 		},
 		skills: getSkills('Concevoir', 'Implanter', 'Electronique', 'Verifier'),
 		type: 'Projet Conception d\'une télécommande sonore',
