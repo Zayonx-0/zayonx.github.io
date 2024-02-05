@@ -115,6 +115,41 @@ const MY_PROJECTS: Array<Project> = [
 			src:'https://i.pinimg.com/originals/0f/c3/94/0fc3944e3f94b65ef9f215c4c53fa3d3.jpg'
 			}
 		]
+	},
+	{
+		slug: 'Projet "TradeBot"',
+		color: '#ff3e00',
+		description:
+			'Projet base de données SQL concernant la gestion de vols aériens.',
+		shortDescription:
+			'Projet base de données SQL concernant la gestion de vols aériens.',
+		links: [{ to: 'https://github.com/Zayonx-0/SQL_Projet_VOL', label: 'GitHub' }],
+		logo: Assets.SQL,
+		name: 'Projet "TradeBot"',
+		period: {
+			from: new Date(2021, 3, 18),
+			to: new Date(2021, 5, 20)
+		},
+		skills: getSkills('SQL'),
+		type: 'Projet SQL',
+		screenshots: [
+			{
+			label: 'Strucure de la base de données SQL',
+			src:'https://prnt.sc/JmwNBanjVIPs'
+			},
+			{
+			label: 'Page RechercheAeroport',
+			src:'https://prnt.sc/HvVL5GkOC78r'
+			},
+			{
+			label: 'Page RechercheVols (exemple de recherche d\'un vol)',
+			src:'https://prnt.sc/eh_pbWp4Fctk'
+			},
+			{
+			label: 'Page rechercheVols (Carte google Map avec les points GPS relevés tout le long du vol)',
+			src:'https://prnt.sc/yVjwSCOfInRh'
+			}
+		]
 	}
 ];
 
