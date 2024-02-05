@@ -139,15 +139,15 @@ const MY_PROJECTS: Array<Project> = [
 			},
 			{
 			label: 'Page RechercheAeroport',
-			src:'https://prnt.sc/HvVL5GkOC78r'
+			src:'https://i.imgur.com/bujUMv7.png'
 			},
 			{
 			label: 'Page RechercheVols (exemple de recherche d\'un vol)',
-			src:'https://prnt.sc/eh_pbWp4Fctk'
+			src:'https://i.imgur.com/gcyzoxZ.png'
 			},
 			{
 			label: 'Page rechercheVols (Carte google Map avec les points GPS relevés tout le long du vol)',
-			src:'https://prnt.sc/yVjwSCOfInRh'
+			src:'https://i.imgur.com/APUil4B.png'
 			}
 		]
 	}
