@@ -84,7 +84,8 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'CV',
-	item: './cv.pdf'
+	item: ''
+	//item: './cv.pdf'
 };
 
 export const SEARCH: SearchPageParams = {
