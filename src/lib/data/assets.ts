@@ -74,6 +74,9 @@ const Assets = {
 	Arduino: a('arduino.png'),
 	Linux: a('Linux.png'),
 	Concevoir: a('Concevoir.png'),
+	Verifier: a('Verifier.png'),
+	Maintenir: a('Maintenir.png'),
+	Implanter: a('Implanter.png'),
 };
 
 export default Assets;
