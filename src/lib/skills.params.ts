@@ -86,14 +86,6 @@ const MY_SKILLS = [
 		name: 'C'
 	}),
 	s({
-		slug: 'C++',
-		color: 'blue',
-		description:
-			`Développeur C++ autodidacte - Développement de projets personnels et scolaires.`,
-		logo: Assets.Cpp,
-		name: 'C++'
-	}),
-	s({
 		slug: 'Java',
 		color: 'red',
 		description:
@@ -108,6 +100,14 @@ const MY_SKILLS = [
 			`Familier avec les systèmes Linux - Utilisation de distributions Linux pour le développement.`,
 		logo: Assets.Unknown,
 		name: 'Linux'
+	}),
+	s({
+		slug: 'Concevoir',
+		color: 'red',
+		description:
+			`Concevoir un système en adoptant une approche sélective dans ses choix technologiques`,
+		logo: Assets.Concevoir,
+		name: 'Concevoir'
 	}),
 ];
 

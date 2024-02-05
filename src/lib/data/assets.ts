@@ -72,7 +72,8 @@ const Assets = {
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
 	Arduino: a('arduino.png'),
-	Linux: a('Tux.png')
+	Linux: a('Linux.png'),
+	Concevoir: a('concevoir.svg'),
 };
 
 export default Assets;
