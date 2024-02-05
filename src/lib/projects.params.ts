@@ -124,7 +124,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Projet base de données SQL concernant la gestion de vols aériens.',
 		links: [{ to: 'https://github.com/Zayonx-0/SQL_Projet_VOL', label: 'GitHub' }],
-		logo: Assets.SQL,
+		logo: Assets.sql,
 		name: 'Projet "TradeBot"',
 		period: {
 			from: new Date(2021, 3, 18),
