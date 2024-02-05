@@ -11,7 +11,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		type: 'Software Development',
 		location: 'Home',
 		period: { from: new Date() },
-		skills: getSkills('Linux', '', '', '', '', 'Concevoir', 'Maintenir', 'Verifier', 'Implanter'),
+		skills: getSkills('Linux', 'JavaScript', 'HTML', 'CSS', 'Python', 'Concevoir', 'Maintenir', 'Verifier', 'Implanter'),
 		name: 'Apprenti Technicien Réparation',
 		color: 'red',
 		links: [],
