@@ -78,7 +78,7 @@ const Assets = {
 	Maintenir: a('Maintenir.png'),
 	Implanter: a('Implanter.png'),
 	Kontron: a('Kontron.png'),
-	sqle: a('sqle.png'),
+	sql2: a('sql.png'),
 	php: a('php.png'),
 };
 
