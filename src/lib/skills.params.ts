@@ -81,7 +81,7 @@ const MY_SKILLS = [
 		slug: 'Python',
 		color: 'Yellow',
 		description:
-			`Développeur python autodidacte - Développement de projets personnels et scolaires.`,
+			`Python est un langage de programmation polyvalent et puissant. Il est largement utilisé dans le développement web, l'analyse de données, l'intelligence artificielle et bien d'autres domaines. Python se distingue par sa syntaxe claire et concise, ce qui en fait un langage facile à apprendre et à lire. Il offre de nombreuses bibliothèques et frameworks qui facilitent le développement rapide d'applications. Que ce soit pour des projets personnels ou scolaires, Python est un excellent choix pour concrétiser vos idées.`,
 		logo: Assets.Python,
 		name: 'Python'
 	}),
@@ -89,7 +89,7 @@ const MY_SKILLS = [
 		slug: 'C',
 		color: 'blue',
 		description:
-			`Développeur C autodidacte - Développement de projets personnels et scolaires.`,
+			`Le langage C est un langage de programmation impératif et procédural. Il est largement utilisé pour le développement de systèmes d'exploitation, de logiciels embarqués et d'applications à haute performance. Le C offre un contrôle précis sur la mémoire et les ressources du système, ce qui en fait un choix privilégié pour les développeurs qui recherchent une performance optimale. Il est également utilisé pour enseigner les concepts fondamentaux de la programmation.`,
 		logo: Assets.C,
 		name: 'C'
 	}),
@@ -97,17 +97,9 @@ const MY_SKILLS = [
 		slug: 'C++',
 		color: 'blue',
 		description:
-			`Développeur C++ autodidacte - Développement de projets personnels et scolaires.`,
+			`C++ est un langage de programmation polyvalent et puissant. Il est largement utilisé dans le développement de logiciels, les jeux vidéo, les systèmes embarqués et d'autres domaines. C++ est une extension du langage C avec des fonctionnalités supplémentaires telles que les classes, l'héritage, les templates et les exceptions. Il offre un contrôle précis sur la mémoire et les ressources du système, ce qui en fait un choix privilégié pour les développeurs qui recherchent une performance optimale. C++ est également utilisé pour enseigner les concepts avancés de la programmation et est pris en charge par de nombreuses bibliothèques et frameworks.`,
 		logo: Assets.Cpp,
 		name: 'C++'
-	}),
-	s({
-		slug: 'Java',
-		color: 'red',
-		description:
-			`Développeur Java autodidacte - Développement de projets personnels et scolaires.`,
-		logo: Assets.Java,
-		name: 'Java'
 	}),
 	s({
 	slug: 'SQL',

@@ -114,7 +114,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2017, 3, 18),
 			to: new Date(2022, 5, 20)
 		},
-		skills: getSkills('NodeJs', 'JSON'),
+		skills: getSkills('nodejs', 'JSON'),
 		type: 'tf2-automatic',
 		screenshots: [
 			{
