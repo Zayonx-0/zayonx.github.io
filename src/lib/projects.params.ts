@@ -16,7 +16,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date(2023, 11, 1)
 		},
-		skills: getSkills('Python', 'Linux'),
+		skills: getSkills('Python', 'Linux', 'Concevoir'),
 		type: 'NetTest'
 	},
 	{
@@ -80,7 +80,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 			label: 'screen 1',
-			src:'https://i.pinimg.com/originals/0f/c3/94/0fc3944e3f94b65ef9f215c4c53fa3d3.jpg'
+			src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmIz-Xq-aFCktl4o-SzvaIjCHtffBeoNfUw&usqp=CAU'
 			}
 		]
 
@@ -165,7 +165,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2021, 2, 18),
 			to: new Date(2021, 6, 20)
 		},
-		skills: getSkills('C++', 'Arduino', 'Concevoir', 'Implanter'),
+		skills: getSkills('C++', 'Arduino', 'Concevoir', 'Implanter', 'Vérifier'),
 		type: 'Projet Robot',
 		screenshots: [
 			{
@@ -178,26 +178,26 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'Projet Carte "SmartLight"',
 		color: '#ff3e00',
 		description:
-			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
+			'Projet consistant en la réalisation d\'une carte électronique permettant de contrôler l\'éclairage d\'une pièce automatiquement en fonction des conditions lumineuses. Réalisé avec Arduino.',
 		shortDescription:
-			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
-		links: [{ to: 'https://github.com/Zayonx-0/Projet_Robot', label: 'GitHub' }],
+			'Conception d\'une lumière intelligente',
+		links: [{ to: 'https://github.com/Zayonx-0/SmartLight', label: 'GitHub'}, { to: 'https://github.com/Zayonx-0/SmartLight/blob/main/Compte%20rendu%20activite%CC%81%204%20RICCI%20Matyas%20H.pdf', label: 'Compte rendu'}],
 		logo: Assets.Python,
-		name: 'Projet "tf2-automatic"',
+		name: 'Projet "SmartLight"',
 		period: {
 			from: new Date(2017, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('NodeJS', 'JSON'),
+		skills: getSkills('Arduino', 'Concevoir', 'Implanter', 'Electronique', 'Vérifier'),
 		type: 'Projet Carte "SmartLight"',
 	},
 	{
 		slug: 'Projet Conception d\'une télécommande sonore',
 		color: '#ff3e00',
 		description:
-			'Projet Conception d\'une télécommande sonore',
-		shortDescription:
 			'Ce projet a été réalisé dans le cadre de la formation en Génie Électrique et Informatique Industrielle. Il consiste en la conception d\'une télécommande sonore. Elle permet ainsi d\'allumer un robot à l\'aide de sons. Le robot est alors équipé d\'un microcontrôleur Arduino et d\'un micro.',
+		shortDescription:
+			'Projet Conception d\'une télécommande sonore',
 		links: [{ to: 'https://github.com/Zayonx-0/Projet_Robot', label: 'GitHub' }],
 		logo: Assets.Python,
 		name: 'Projet "Télécommande sonore"',
@@ -205,7 +205,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2017, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('NodeJs', 'JSON'),
+		skills: getSkills('Concevoir', 'Implanter', 'Electronique', 'Vérifier'),
 		type: 'Projet Conception d\'une télécommande sonore',
 	}
 ];

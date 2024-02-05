@@ -21,7 +21,7 @@ export const NavBar = {
 	personal: 'Projets',
 	career: 'Expériences',
 	resume: 'CV',
-	skills: 'Skills',
+	skills: 'Compétences',
 	Education: 'Études'
 };
 
@@ -90,7 +90,7 @@ export const EXPERIENCES: ExperiencePageParams = {
 };
 
 export const SKILLS: SkillsPageParams = {
-	title: 'Skills',
+	title: 'Compétences',
 	items: MY_SKILLS
 };
 
