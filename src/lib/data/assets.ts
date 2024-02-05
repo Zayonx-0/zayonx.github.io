@@ -77,6 +77,7 @@ const Assets = {
 	Verifier: a('Verifier.png'),
 	Maintenir: a('Maintenir.png'),
 	Implanter: a('Implanter.png'),
+	Kontron: a('Kontron.png'),
 };
 
 export default Assets;

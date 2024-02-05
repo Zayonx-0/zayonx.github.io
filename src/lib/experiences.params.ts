@@ -4,20 +4,20 @@ import { ContractType, type Experience } from './types';
 
 const MY_EXPERIENCES: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
+		slug: 'Apprenti Technicien Réparation',
+		company: 'Kontron Modual Computers',
+		description: 'Maintenance et réparation de cartes électroniques. Développement de logiciels de tests.',
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Home',
 		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
+		skills: getSkills('Linux', '', '', '', '', 'Concevoir', 'Maintenir', 'Verifier', 'Implanter'),
+		name: 'Apprenti Technicien Réparation',
 		color: 'red',
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: ''
-	},
+	},/*
 	{
 		slug: 'software-freelance',
 		company: 'Self-employed',
@@ -47,7 +47,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: ''
-	}
+	}*/
 ];
 
 export default MY_EXPERIENCES;
