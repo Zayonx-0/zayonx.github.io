@@ -13,7 +13,7 @@
 				<Chip size={'1.25em'}>Voir</Chip>
 			</a>
 		{:else}
-			<Chip>Oups ! Aucun CV disponible pour le moment</Chip>
+			<Chip>Oups ! CV Non disponible, veuillez envoyer un mail pour le demander !</Chip>
 		{/if}
 	</div>
 </CommonPage>
