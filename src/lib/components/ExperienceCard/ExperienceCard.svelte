@@ -38,13 +38,13 @@
 				<CardTitle title={experience.name} />
 			</h3>
 			<div class="row flex-wrap m-b-2 gap-1 text-0.9em font-300">
-				<ChipIcon name={`Company: ${experience.company}`}>
+				<ChipIcon name={`Entreprise: ${experience.company}`}>
 					<UIcon icon="i-carbon-building" />
 				</ChipIcon>
-				<ChipIcon name={`Location: ${experience.location}`}>
+				<ChipIcon name={`Localisation: ${experience.location}`}>
 					<UIcon icon="i-carbon-location" />
 				</ChipIcon>
-				<ChipIcon name={`Contract: ${experience.contract}`}>
+				<ChipIcon name={`Contrat: ${experience.contract}`}>
 					<UIcon icon="i-carbon-hourglass" />
 				</ChipIcon>
 			</div>
