@@ -192,7 +192,7 @@ const MY_PROJECTS: Array<Project> = [
 		type: 'tf2-automatic',
 	},
 	{
-		slug: 'Projet "TradeBot"',
+		slug: 'Projet Conception d\'une télécommande sonore',
 		color: '#ff3e00',
 		description:
 			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',

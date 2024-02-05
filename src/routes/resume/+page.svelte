@@ -10,7 +10,7 @@
 	<div class="resume">
 		{#if item}
 			<a href={item}>
-				<Chip size={'1.25em'}>Download</Chip>
+				<Chip size={'1.25em'}>Voir</Chip>
 			</a>
 		{:else}
 			<Chip>Ooops! no CV at the moment.</Chip>
