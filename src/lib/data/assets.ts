@@ -78,8 +78,6 @@ const Assets = {
 	Maintenir: a('Maintenir.png'),
 	Implanter: a('Implanter.png'),
 	Kontron: a('Kontron.png'),
-	sql: a('sql.png'),
-	php: a('php.png'),
 };
 
 export default Assets;
