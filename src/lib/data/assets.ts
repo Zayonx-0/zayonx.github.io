@@ -73,7 +73,7 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	Arduino: a('arduino.png'),
 	Linux: a('Linux.png'),
-	Concevoir: a('concevoir.png'),
+	Concevoir: a('Concevoir.png'),
 };
 
 export default Assets;
