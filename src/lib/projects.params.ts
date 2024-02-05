@@ -130,7 +130,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2021, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('SQL'),
+		skills: getSkills('SQL', 'PHP', 'Verifier'),
 		type: 'Projet SQL',
 		screenshots: [
 			{
@@ -165,7 +165,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2021, 2, 18),
 			to: new Date(2021, 6, 20)
 		},
-		skills: getSkills('C++', 'Arduino', 'Concevoir', 'Implanter', 'Vérifier'),
+		skills: getSkills('C++', 'Arduino', 'Concevoir', 'Implanter', 'Verifier'),
 		type: 'Projet Robot',
 		screenshots: [
 			{
@@ -188,7 +188,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2017, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('Arduino', 'Concevoir', 'Implanter', 'Electronique', 'Vérifier'),
+		skills: getSkills('Arduino', 'Concevoir', 'Implanter', 'Electronique', 'Verifier', 'Git'),
 		type: 'Projet Carte "SmartLight"',
 	},
 	{
@@ -198,14 +198,14 @@ const MY_PROJECTS: Array<Project> = [
 			'Ce projet a été réalisé dans le cadre de la formation en Génie Électrique et Informatique Industrielle. Il consiste en la conception d\'une télécommande sonore. Elle permet ainsi d\'allumer un robot à l\'aide de sons. Le robot est alors équipé d\'un microcontrôleur Arduino et d\'un micro.',
 		shortDescription:
 			'Projet Conception d\'une télécommande sonore',
-		links: [{ to: 'https://github.com/Zayonx-0/Projet_Robot', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/Zayonx-0/Telecommande_Sonore/blob/main/Compte_Rendu_Chevalier_Bots_Ricci_Phan_GroupeF.pdf', label: 'Compt Rendu' }],
 		logo: Assets.Python,
 		name: 'Projet "Télécommande sonore"',
 		period: {
 			from: new Date(2017, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('Concevoir', 'Implanter', 'Electronique', 'Vérifier'),
+		skills: getSkills('Concevoir', 'Implanter', 'Electronique', 'Verifier'),
 		type: 'Projet Conception d\'une télécommande sonore',
 	}
 ];

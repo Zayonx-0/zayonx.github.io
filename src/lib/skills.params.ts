@@ -58,7 +58,7 @@ const MY_SKILLS = [
 		slug: 'sass',
 		color: 'pink',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'Sass est un langage de feuilles de style en cascade (CSS) avec des fonctionnalités étendues. Il permet d\'ajouter des fonctionnalités avancées à CSS telles que les variables, les mixins, les fonctions et les imports. Sass facilite la création et la gestion de styles réutilisables, ce qui améliore la maintenabilité et la productivité du développement web. Il offre également des fonctionnalités de programmation, ce qui permet de générer dynamiquement des styles en fonction de certaines conditions. Sass est largement utilisé dans l\'industrie du développement web pour créer des feuilles de style CSS plus puissantes et plus efficaces.',
 		logo: Assets.Sass,
 		name: 'Sass'
 	}),
@@ -117,6 +117,30 @@ const MY_SKILLS = [
 	logo: Assets.sql,
 	name: 'SQL'
 	}),
+	s({
+		slug: 'Git',
+		color: 'red',
+		description:
+			`Familier avec Git - Utilisation de Git pour la gestion de versions et le contrôle de code source. Git est un système de contrôle de version distribué largement utilisé dans le développement de logiciels. Il permet de suivre les modifications apportées aux fichiers et aux codes sources d'un projet, de gérer les différentes versions et de collaborer efficacement avec d'autres développeurs. Git offre des fonctionnalités telles que la création de branches pour travailler sur des fonctionnalités ou des correctifs de bugs séparément, la fusion des modifications de différentes branches, la gestion des conflits de fusion et la possibilité de revenir à des versions antérieures du code. Il facilite également le partage du code entre les membres de l'équipe et la contribution à des projets open source. En utilisant Git, les développeurs peuvent garder une trace de l'historique des modifications, travailler de manière collaborative et assurer la stabilité et la qualité du code.`,
+		logo: Assets.Git,
+		name: 'Git'
+	}),
+	s({
+		slug: 'Docker',
+		color: 'blue',
+		description:
+			`Docker est une plateforme open-source qui permet de créer, déployer et gérer des conteneurs. Les conteneurs sont des environnements isolés et légers qui encapsulent une application et toutes ses dépendances. Grâce à Docker, vous pouvez packager votre application avec toutes ses dépendances dans un conteneur, ce qui garantit une portabilité et une reproductibilité maximales. Les conteneurs Docker sont faciles à partager, à déployer et à mettre à l'échelle, ce qui en fait un outil populaire pour le développement et le déploiement d'applications. - Utilisation de Docker pour la création, le déploiement et la gestion de conteneurs.`,
+		logo: Assets.Docker,
+		name: 'Docker'
+	}),
+s({
+	slug: 'PHP',
+	color: 'purple',
+	description:
+		`Développeur PHP autodidacte - Développement de sites web dynamiques et d'applications web. PHP est un langage de programmation côté serveur largement utilisé pour le développement web. Il est principalement utilisé pour créer des pages web dynamiques et des applications web, et est intégré dans le code HTML. PHP est un langage de script côté serveur qui peut générer du contenu dynamique sur les pages web, se connecter à des bases de données, gérer les sessions utilisateur, envoyer des e-mails, etc. Il est souvent utilisé en conjonction avec des bases de données MySQL pour créer des applications web interactives et des sites web dynamiques. PHP est un langage de programmation polyvalent qui offre une grande flexibilité et une grande facilité d'utilisation pour le développement web. - Utilisation de PHP pour le développement de sites web dynamiques et d'applications web.`,
+	logo: Assets.PHP,
+	name: 'PHP'
+}),
 	s({
 		slug: 'Linux',
 		color: 'green',

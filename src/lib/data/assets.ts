@@ -80,6 +80,8 @@ const Assets = {
 	Kontron: a('Kontron.png'),
 	sql: a('sql.png'),
 	JSON: a('JSON.svg'),
+	PHP: a('php.png'),
+	Git: a('git.png', 'git-dark.png'),
 };
 
 export default Assets;
