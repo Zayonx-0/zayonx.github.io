@@ -31,7 +31,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Svelte,
 		name: 'Projet Portfolio',
 		period: {
-			from: new Date(2024, 1, 19), to: new Date(2024, 2, 19)
+			from: new Date(2023, 12, 31), to: new Date(2024, 1, 30)
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass', 'typescript'),
 		type: 'Portfolio Web',
