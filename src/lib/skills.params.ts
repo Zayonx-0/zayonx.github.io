@@ -66,7 +66,7 @@ const MY_SKILLS = [
 		slug: 'nodejs',
 		color: 'cyan',
 		description:
-			`Développeur NodeJS autodicate - Développement de bots Discord, de sites web et d'un bot de Trading d'objets virtuels sur le jeu Team Fortress 2.`,
+			`Développeur NodeJS autodicate - Node (ou plus formellement Node. js) est un environnement d'exécution open-source, multi-plateforme, qui permet aux développeurs de créer toutes sortes d'applications et d'outils côté serveur en JavaScript.`,
 		logo: Assets.NodeJs,
 		name: 'NodeJs'
 	}),
