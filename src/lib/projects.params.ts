@@ -198,7 +198,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Ce projet a été réalisé dans le cadre de la formation en Génie Électrique et Informatique Industrielle. Il consiste en la conception d\'une télécommande sonore. Elle permet ainsi d\'allumer un robot à l\'aide de sons. Le robot est alors équipé d\'un microcontrôleur Arduino et d\'un micro.',
 		shortDescription:
 			'Projet Conception d\'une télécommande sonore',
-		links: [{ to: 'https://github.com/Zayonx-0/Telecommande_Sonore/blob/main/Compte_Rendu_Chevalier_Bots_Ricci_Phan_GroupeF.pdf', label: 'Compt Rendu' }],
+		links: [{ to: 'https://github.com/Zayonx-0/Telecommande_Sonore/blob/main/Compte_Rendu_Chevalier_Bots_Ricci_Phan_GroupeF.pdf', label: 'Compte Rendu' }],
 		logo: Assets.Unknown,
 		name: 'Projet "Télécommande sonore"',
 		period: {
