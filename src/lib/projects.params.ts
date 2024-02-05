@@ -93,7 +93,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
 		links: [{ to: 'https://github.com/Zayonx-0/AUTOTRADE_TF2', label: 'GitHub' }],
-		logo: Assets.Python,
+		logo: Assets.NodeJs,
 		name: 'Projet "tf2-automatic"',
 		period: {
 			from: new Date(2017, 3, 18),
