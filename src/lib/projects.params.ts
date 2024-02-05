@@ -92,27 +92,27 @@ const MY_PROJECTS: Array<Project> = [
 			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
 		shortDescription:
 			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
-		links: [{ to: 'https://github.com/Zayonx-0/Morse-Code', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/Zayonx-0/AUTOTRADE_TF2', label: 'GitHub' }],
 		logo: Assets.Python,
-		name: 'Projet "TradeBot"',
+		name: 'Projet "tf2-automatic"',
 		period: {
-			from: new Date(2021, 3, 18),
+			from: new Date(2017, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('NodeJS'),
-		type: 'Projet Python',
+		skills: getSkills('NodeJS', 'JSON'),
+		type: 'tf2-automatic',
 		screenshots: [
 			{
 			label: 'Logs de Debug du programme en cours de fonctionnement',
-			src:'https://i.pinimg.com/originals/0f/c3/94/0fc3944e3f94b65ef9f215c4c53fa3d3.jpg'
+			src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmIz-Xq-aFCktl4o-SzvaIjCHtffBeoNfUw&usqp=CAU'
 			},
 			{
 			label: 'Logs de debug du programme en cours d\'actualisation des prix',
-			src:'https://i.pinimg.com/originals/0f/c3/94/0fc3944e3f94b65ef9f215c4c53fa3d3.jpg'
+			src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmIz-Xq-aFCktl4o-SzvaIjCHtffBeoNfUw&usqp=CAU'
 			},
 			{
 			label: 'Interface Discord corresondant au récapitulatif des statistiques du bot',
-			src:'https://i.pinimg.com/originals/0f/c3/94/0fc3944e3f94b65ef9f215c4c53fa3d3.jpg'
+			src:'https://i.imgur.com/rEUsj8X.png'
 			}
 		]
 	},

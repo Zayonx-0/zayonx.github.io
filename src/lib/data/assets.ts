@@ -79,6 +79,7 @@ const Assets = {
 	Implanter: a('Implanter.png'),
 	Kontron: a('Kontron.png'),
 	sql: a('sql.png'),
+	JSON: a('JSON.svg'),
 };
 
 export default Assets;

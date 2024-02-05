@@ -126,6 +126,14 @@ const MY_SKILLS = [
 		name: 'Linux'
 	}),
 	s({
+		slug: 'JSON',
+		color: 'orange',
+		description:
+			`JSON (JavaScript Object Notation) est un format de données léger et facile à lire utilisé pour échanger des données entre un serveur et un client. Il est basé sur JavaScript et est largement utilisé dans les applications web pour stocker et transférer des données structurées.`,
+		logo: Assets.JSON,
+		name: 'JSON'
+	}),
+	s({
 		slug: 'Concevoir',
 		color: 'red',
 		description:
