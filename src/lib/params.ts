@@ -49,7 +49,7 @@ export const HOME: HomePageParams = {
 	name: 'Matyas',
 	lastName: 'Ricci',
 	description:
-		'Apprenti Technicien Réparation - Développeur Auto-Didacte & Formé',
+		'Apprenti Technicien Réparation - Développeur Auto-Didacte - Étudiant en Génie Électrique et Informatique Industrielle',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/Zayonx-0' },
 		{

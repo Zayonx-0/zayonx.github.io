@@ -10,7 +10,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Home',
-		period: { from: new Date() },
+		period: { from: new Date(2022, 9, 1), to: new Date()},
 		skills: getSkills('Linux', 'JavaScript', 'HTML', 'CSS', 'Python', 'Concevoir', 'Maintenir', 'Verifier', 'Implanter'),
 		name: 'Apprenti Technicien Réparation',
 		color: 'red',

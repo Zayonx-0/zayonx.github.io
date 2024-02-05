@@ -84,7 +84,38 @@ const MY_PROJECTS: Array<Project> = [
 			}
 		]
 
-	}//
+	},
+	{
+		slug: 'Projet "TradeBot"',
+		color: '#ff3e00',
+		description:
+			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
+		shortDescription:
+			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
+		links: [{ to: 'https://github.com/Zayonx-0/Morse-Code', label: 'GitHub' }],
+		logo: Assets.Python,
+		name: 'Projet "TradeBot"',
+		period: {
+			from: new Date(2021, 3, 18),
+			to: new Date(2021, 5, 20)
+		},
+		skills: getSkills('NodeJS'),
+		type: 'Projet Python',
+		screenshots: [
+			{
+			label: 'Logs de Debug du programme en cours de fonctionnement',
+			src:'https://i.pinimg.com/originals/0f/c3/94/0fc3944e3f94b65ef9f215c4c53fa3d3.jpg'
+			},
+			{
+			label: 'Logs de debug du programme en cours d\'actualisation des prix',
+			src:'https://i.pinimg.com/originals/0f/c3/94/0fc3944e3f94b65ef9f215c4c53fa3d3.jpg'
+			},
+			{
+			label: 'Interface Discord corresondant au récapitulatif des statistiques du bot',
+			src:'https://i.pinimg.com/originals/0f/c3/94/0fc3944e3f94b65ef9f215c4c53fa3d3.jpg'
+			}
+		]
+	}
 ];
 
 export default MY_PROJECTS;
