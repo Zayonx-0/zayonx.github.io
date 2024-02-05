@@ -129,7 +129,7 @@ const MY_PROJECTS: Array<Project> = [
 		name: 'Projet "SQL Base de données Vol"',
 		period: {
 			from: new Date(2023, 12, 31),
-			to: new Date(2024, 1, 1)
+			to: new Date(2024, 1, 20)
 		},
 		skills: getSkills('SQL', 'PHP', 'Verifier'),
 		type: 'Projet SQL',
