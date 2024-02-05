@@ -7,16 +7,16 @@ const MY_EXPERIENCES: Array<Experience> = [
 		slug: 'Apprenti Technicien Réparation',
 		company: 'Kontron Modual Computers',
 		description: 'Maintenance et réparation de cartes électroniques. Développement de logiciels de tests.',
-		contract: ContractType.SelfEmployed,
-		type: 'Software Development',
-		location: 'Home',
+		contract: ContractType.Apprenticeship,
+		type: 'Technicien Réparation',
+		location: 'La Garde, France',
 		period: { from: new Date(2022, 9, 1), to: new Date()},
 		skills: getSkills('Linux', 'js', 'html', 'css', 'Python', 'Concevoir', 'Maintenir', 'Verifier', 'Implanter'),
 		name: 'Apprenti Technicien Réparation',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: ''
+		logo: Assets.Kontron,
+		shortDescription: 'Kontron est une entreprise spécialisée dans la fabrication de cartes électroniques.'
 	},/*
 	{
 		slug: 'software-freelance',
