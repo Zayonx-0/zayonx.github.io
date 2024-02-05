@@ -82,6 +82,8 @@ const Assets = {
 	JSON: a('JSON.svg'),
 	PHP: a('php.png'),
 	Git: a('git.png', 'git-dark.png'),
+	univtln: a('univ-tln.png'),
+	coudon: a('coudon.png'),
 };
 
 export default Assets;
