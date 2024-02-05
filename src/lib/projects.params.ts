@@ -120,10 +120,10 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'Projet "SQL Base de données Vol"',
 		color: '#ff3e00',
 		description:
-			'Projet base de données SQL concernant la gestion de vols aériens.',
+			'Projet base de données SQL concernant la gestion de vols aériens. (Recherche de vols, aéroports, compagnies aériennes, etc...) - Réalisé avec MampServer.',
 		shortDescription:
 			'Projet base de données SQL concernant la gestion de vols aériens.',
-		links: [{ to: 'https://github.com/Zayonx-0/SQL_Projet_VOL', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/Zayonx-0/SQL_Projet_VOL', label: 'GitHub' }, { to: 'https://github.com/Zayonx-0/SQL_Projet_VOL/blob/main/R5.07%20Projet%20TP2%20Vols.pdf', label: 'Sujet' }],
 		logo: Assets.sql,
 		name: 'Projet "SQL Base de données Vol"',
 		period: {
