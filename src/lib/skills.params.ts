@@ -131,7 +131,7 @@ const MY_SKILLS = [
 		description:
 			`Vérifier la conformité d'un système par rapport à un cahier des charges. Élaborer une procédure intégrant une démarche qualité pour valider le fonctionnement d’un système`,
 		logo: Assets.Verifier,
-		name: 'Verifier'
+		name: 'Vérifier'
 	}),
 	s({
 		slug: 'Maintenir',

@@ -117,7 +117,7 @@ const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
-		slug: 'Projet "TradeBot"',
+		slug: 'Projet "SQL Base de données Vol"',
 		color: '#ff3e00',
 		description:
 			'Projet base de données SQL concernant la gestion de vols aériens.',
@@ -125,7 +125,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Projet base de données SQL concernant la gestion de vols aériens.',
 		links: [{ to: 'https://github.com/Zayonx-0/SQL_Projet_VOL', label: 'GitHub' }],
 		logo: Assets.sql,
-		name: 'Projet "TradeBot"',
+		name: 'Projet "SQL Base de données Vol"',
 		period: {
 			from: new Date(2021, 3, 18),
 			to: new Date(2021, 5, 20)
