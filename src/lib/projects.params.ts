@@ -150,7 +150,30 @@ const MY_PROJECTS: Array<Project> = [
 			src:'https://i.imgur.com/APUil4B.png'
 			}
 		]
-	}
+	},
+	{
+		slug: 'Projet Robot',
+		color: '#ff3e00',
+		description:
+			'Projet consistant en la réalisation d\'un robot détecteur d\'obstacles. Réalisé avec Arduino. Le code compris sur la page Github a permis de finir 1er au concours robot réalisé en 2021',
+		shortDescription:
+			'Projet consistant en la réalisation d\'un robot détecteur d\'obstacles. Réalisé avec Arduino.',
+		links: [{ to: 'https://github.com/Zayonx-0/Projet_Robot', label: 'GitHub' }],
+		logo: Assets.Cpp,
+		name: 'Projet Robot',
+		period: {
+			from: new Date(2021, 2, 18),
+			to: new Date(2021, 6, 20)
+		},
+		skills: getSkills('C++', 'Arduino', 'Concevoir', 'Implanter'),
+		type: 'Projet Robot',
+		screenshots: [
+			{
+			label: 'Robot piloté par la carte Arduino',
+			src:'https://i.imgur.com/VYp6VAc.jpeg'
+			}
+		]
+	},
 ];
 
 export default MY_PROJECTS;

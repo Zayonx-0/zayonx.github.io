@@ -23,6 +23,14 @@ const MY_SKILLS = [
 		name: 'Javascript'
 	}),
 	s({
+		slug: 'arduino',
+		color: 'green',
+		description:
+				'Arduino est une plateforme électronique open-source basée sur du matériel et des logiciels faciles à utiliser. Elle est largement utilisée pour créer des projets interactifs et des prototypes, ainsi que pour contrôler divers appareils électroniques. Arduino offre une manière simple et flexible de programmer des microcontrôleurs, ce qui la rend accessible aux débutants et aux développeurs expérimentés.',
+			logo: Assets.Arduino,
+		name: 'Arduino'
+	}),
+	s({
 		slug: 'ts',
 		color: 'blue',
 		description:
