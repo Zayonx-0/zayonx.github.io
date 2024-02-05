@@ -99,7 +99,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2017, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('NodeJS', 'JSON'),
+		skills: getSkills('NodeJs', 'JSON'),
 		type: 'tf2-automatic',
 		screenshots: [
 			{
@@ -189,24 +189,24 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2021, 5, 20)
 		},
 		skills: getSkills('NodeJS', 'JSON'),
-		type: 'tf2-automatic',
+		type: 'Projet Carte "SmartLight"',
 	},
 	{
 		slug: 'Projet Conception d\'une télécommande sonore',
 		color: '#ff3e00',
 		description:
-			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
+			'Projet Conception d\'une télécommande sonore',
 		shortDescription:
-			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
+			'Ce projet a été réalisé dans le cadre de la formation en Génie Électrique et Informatique Industrielle. Il consiste en la conception d\'une télécommande sonore. Elle permet ainsi d\'allumer un robot à l\'aide de sons. Le robot est alors équipé d\'un microcontrôleur Arduino et d\'un micro.',
 		links: [{ to: 'https://github.com/Zayonx-0/Projet_Robot', label: 'GitHub' }],
 		logo: Assets.Python,
-		name: 'Projet "tf2-automatic"',
+		name: 'Projet "Télécommande sonore"',
 		period: {
 			from: new Date(2017, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('NodeJS', 'JSON'),
-		type: 'tf2-automatic',
+		skills: getSkills('NodeJs', 'JSON'),
+		type: 'Projet Conception d\'une télécommande sonore',
 	}
 ];
 
