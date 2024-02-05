@@ -106,7 +106,7 @@ const MY_SKILLS = [
 	color: 'purple',
 	description:
 		"SQL (Structured Query Language) est un langage de programmation utilisé pour gérer et manipuler des bases de données relationnelles. Il vous permet de créer, modifier et interroger des bases de données pour récupérer et manipuler des données. SQL est largement utilisé dans le développement web, l'analyse de données et d'autres applications qui impliquent de travailler avec des bases de données.",
-	logo: Assets.sql,
+	logo: Assets.sqle,
 	name: 'SQL'
 	}),
 	s({
