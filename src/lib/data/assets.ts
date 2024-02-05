@@ -84,6 +84,7 @@ const Assets = {
 	Git: a('git.png', 'git-dark.png'),
 	univtln: a('univ-tln.png'),
 	coudon: a('coudon.png'),
+	geii: a('geii.png'),
 };
 
 export default Assets;

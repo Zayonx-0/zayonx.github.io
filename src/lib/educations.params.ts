@@ -6,7 +6,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		degree: 'BUT GEII',
 		description: '',
 		location: 'La Garde, France',
-		logo: Assets.univtln,
+		logo: Assets.geii,
 		name: '',
 		organization: 'IUT GEII Toulon',
 		period: { from: new Date(2021, 9, 1), to: new Date(2024, 8, 30)},
