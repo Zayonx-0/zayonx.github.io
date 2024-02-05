@@ -174,6 +174,40 @@ const MY_PROJECTS: Array<Project> = [
 			}
 		]
 	},
+	{
+		slug: 'Projet Carte "SmartLight"',
+		color: '#ff3e00',
+		description:
+			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
+		shortDescription:
+			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
+		links: [{ to: 'https://github.com/Zayonx-0/Projet_Robot', label: 'GitHub' }],
+		logo: Assets.Python,
+		name: 'Projet "tf2-automatic"',
+		period: {
+			from: new Date(2017, 3, 18),
+			to: new Date(2021, 5, 20)
+		},
+		skills: getSkills('NodeJS', 'JSON'),
+		type: 'tf2-automatic',
+	},
+	{
+		slug: 'Projet "TradeBot"',
+		color: '#ff3e00',
+		description:
+			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
+		shortDescription:
+			'Projet de développement d\'un bot de trading d\'objets virtuels sur le jeu Team Fortress 2.',
+		links: [{ to: 'https://github.com/Zayonx-0/Projet_Robot', label: 'GitHub' }],
+		logo: Assets.Python,
+		name: 'Projet "tf2-automatic"',
+		period: {
+			from: new Date(2017, 3, 18),
+			to: new Date(2021, 5, 20)
+		},
+		skills: getSkills('NodeJS', 'JSON'),
+		type: 'tf2-automatic',
+	}
 ];
 
 export default MY_PROJECTS;
