@@ -57,10 +57,6 @@ export const HOME: HomePageParams = {
 			link: 'https://www.linkedin.com/in/matyas-ricci/'
 		},
 		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
 			platform: Platform.StackOverflow,
 			link: 'https://stackoverflow.com/users/9875460/zayonx'
 		},
@@ -68,14 +64,6 @@ export const HOME: HomePageParams = {
 			platform: Platform.Email,
 			link: 'matyas.ricci.pro@gmail.com'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
-		}
 	]
 };
 
