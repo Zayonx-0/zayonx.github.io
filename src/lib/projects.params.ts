@@ -128,8 +128,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.sql,
 		name: 'Projet "SQL Base de données Vol"',
 		period: {
-			from: new Date(2024, 1, 18),
-			to: new Date(2024, 2, 4)
+			from: new Date(2024, 1, 1),
+			to: new Date(2024, 2, 1)
 		},
 		skills: getSkills('SQL', 'PHP', 'Verifier'),
 		type: 'Projet SQL',
@@ -203,7 +203,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Unknown,
 		name: 'Projet "Télécommande sonore"',
 		period: {
-			from: new Date(2012, 3, 18),
+			from: new Date(2022, 3, 18),
 			to: new Date(2022, 6, 24)
 		},
 		skills: getSkills('Concevoir', 'Implanter', 'Electronique', 'Verifier'),
