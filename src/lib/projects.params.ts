@@ -47,7 +47,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date(2023, 12, 31), to: new Date(2024, 1, 30)
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass', 'typescript'),
+		skills: getSkills('svelte', 'ts', 'tailwind', 'sass', 'typescript', 'Git'),
 		type: 'Portfolio Web',
 		screenshots: [
 			{
