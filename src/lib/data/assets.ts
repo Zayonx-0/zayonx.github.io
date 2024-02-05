@@ -81,7 +81,7 @@ const Assets = {
 	sql: a('sql.png'),
 	JSON: a('JSON.svg'),
 	PHP: a('php.png'),
-	Git: a('git.png', 'git-dark.png'),
+	Git: a('git.png'),
 	univtln: a('univ-tln.png'),
 	coudon: a('coudon.png'),
 	geii: a('geii.png'),
