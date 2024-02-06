@@ -115,8 +115,8 @@
 
 {#if data.skill.name == "Maintenir"}
 <script>
-    let value = 0;
-    let info = 'Example';
+    globalThis value = 0;
+    globalThis info = 'Example';
 </script>
 
 <main>
