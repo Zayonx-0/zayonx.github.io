@@ -91,10 +91,10 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2021, 5, 20)
 		},
 		skills: getSkills('Python'),
-		type: 'Projet Python',
+		type: 'Projet Scolaire - Lycée',
 		screenshots: [
 			{
-			label: 'screen 1',
+			label: 'Résultat de l\'encodage d\'un texte en morse',
 			src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmIz-Xq-aFCktl4o-SzvaIjCHtffBeoNfUw&usqp=CAU'
 			}
 		]
@@ -115,7 +115,7 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2022, 5, 20)
 		},
 		skills: getSkills('nodejs', 'JSON'),
-		type: 'tf2-automatic',
+		type: 'Projet Personel',
 		screenshots: [
 			{
 			label: 'Logs de Debug du programme en cours de fonctionnement',
