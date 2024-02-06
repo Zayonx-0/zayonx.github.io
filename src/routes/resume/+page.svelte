@@ -4,9 +4,6 @@
 	import { RESUME } from '$lib/params';
 
 	const { item, title } = RESUME;
-	let sujet = '';
-	let message = '';
-
 </script>
 
 <CommonPage {title}>
@@ -16,6 +13,26 @@
 				<Chip size={'1.25em'}>Voir</Chip>
 			</a>
 		{:else}
+			<Chip>Oups ! CV Non disponible, veuillez envoyer un mail pour le demander.</Chip>
+		{/if}
+	</div>
+</CommonPage>
+
+<style lang="scss">
+	.resume {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+
+		& > a {
+			color: inherit;
+		}
+	}
+</style>
+
+<!-- Code for the form (unfinished)
+
+
 			<Chip></Chip>
 			<script>
 
@@ -44,18 +61,5 @@
 
 				<button type="submit">Envoyer</button>
 			</form>
-		{/if}
-	</div>
-</CommonPage>
 
-<style lang="scss">
-	.resume {
-		display: flex;
-		justify-content: center;
-		margin-top: 20px;
-
-		& > a {
-			color: inherit;
-		}
-	}
-</style>
+-->
