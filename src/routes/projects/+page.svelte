@@ -3,11 +3,10 @@
 	import ProjectCard from '$lib/components/ProjectCard/ProjectCard.svelte';
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import { PROJECTS } from '$lib/params';
-	import type { Project, Skill } from '$lib/types';
+	import { Project, type Skill } from '$lib/types';
 	import { onMount } from 'svelte';
 	import MY_SKILLS from '$lib/skills.params';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
-	import Circularbar from '$lib/components/circularbar/src/circularbar.svelte';
 
 	interface SkillFilter extends Skill {
 		isSelected?: boolean;

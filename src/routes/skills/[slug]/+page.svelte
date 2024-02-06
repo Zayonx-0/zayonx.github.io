@@ -14,6 +14,7 @@
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import Banner from '$lib/components/Banner/Banner.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
+	import Circularbar from '$lib/components/circularbar/src/circularbar.svelte';
 
 	type Related = {
 		display: string;
@@ -111,3 +112,32 @@
 		</div>
 	{/if}
 </div>
+
+{#if data.skill.name == "Maintenir"}
+<script>
+    let value = 0;
+    let info = 'Example';
+</script>
+
+<main>
+    <div>
+        <Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
+    </div>
+</main>
+
+<style>
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+    }
+    main {
+        text-align: center;
+        padding: 1em;
+        max-width: 240px;
+        margin: 0 auto;
+    }
+</style>
+{/if}
