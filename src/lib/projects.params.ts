@@ -224,8 +224,8 @@ const MY_PROJECTS: Array<Project> = [
 		type: 'Projet Universitaire - BUT 1 GEII',
 		screenshots: [
 			{
-			label: 'Schéma de câblage du récepteur sonore',
-			src:'https://i.imgur.com/Xkr7unv.png'
+			label: 'Carte électronique complète de la partie réception (micro)',
+			src:'https://i.imgur.com/6TQi2bK.jpeg'
 			},
 			{
 			label: 'Câblage de l\'astable permettant de générer le son',
