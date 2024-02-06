@@ -7,6 +7,7 @@
 	import { onMount } from 'svelte';
 	import MY_SKILLS from '$lib/skills.params';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
+	import Circularbar from '$lib/components/circularbar/src/circularbar.svelte';
 
 	interface SkillFilter extends Skill {
 		isSelected?: boolean;
