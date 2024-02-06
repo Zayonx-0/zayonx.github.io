@@ -23,7 +23,7 @@
 		type: 'projects' | 'experience';
 		url: string;
 	};
-	let value = 0;
+	let value = 30;
 	let description = 0;
 
 	export let data: { skill?: Skill };
