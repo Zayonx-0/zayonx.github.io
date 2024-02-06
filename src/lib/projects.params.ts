@@ -228,10 +228,6 @@ const MY_PROJECTS: Array<Project> = [
 			src:'https://i.imgur.com/6TQi2bK.jpeg'
 			},
 			{
-			label: 'Câblage de l\'astable permettant de générer le son',
-			src:'https://i.imgur.com/sbisYlf.png'
-			},
-			{
 			label: 'Schéma du détecteur crête, utilisé pour filtrer le son',
 			src:'https://i.imgur.com/y5XuEel.png'
 			}
