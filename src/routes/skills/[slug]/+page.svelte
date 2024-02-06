@@ -123,16 +123,4 @@
 	</div>        
 </main>
 
-<style>
-    div {
-        display: flex;
-        width: 150px;
-        height: 150px;
-    }
-    main {
-        padding: 1em;
-        max-width: 240px;
-        margin: 0 auto;
-    }
-</style>
 {/if}
