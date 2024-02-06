@@ -4,6 +4,9 @@
 	import { RESUME } from '$lib/params';
 
 	const { item, title } = RESUME;
+	let sujet = '';
+	let message = '';
+
 </script>
 
 <CommonPage {title}>
@@ -15,19 +18,15 @@
 		{:else}
 			<Chip></Chip>
 			<script>
-				let name = '';
-				let email = '';
-				let message = '';
 
 				function handleSubmit() {
 					// Logique de soumission du formulaire
-					console.log('Nom:', name);
-					console.log('Email:', email);
+					console.log('Sujet:', sujet);
+					console.log('Message:', message);
 					console.log('Message:', message);
 
 					// Réinitialiser les champs du formulaire
-					name = '';
-					email = '';
+					sujet = '';
 					message = '';
 				}
 			</script>
@@ -35,12 +34,7 @@
 			<form on:submit|preventDefault={handleSubmit}>
 				<label>
 					Nom:
-					<input type="text" bind:value={name} />
-				</label>
-
-				<label>
-					Email:
-					<input type="email" bind:value={email} />
+					<input type="Sujet" bind:value={sujet} />
 				</label>
 
 				<label>

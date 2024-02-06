@@ -215,13 +215,23 @@ const MY_PROJECTS: Array<Project> = [
 			'Projet Conception d\'une télécommande sonore',
 		links: [{ to: 'https://github.com/Zayonx-0/Telecommande_Sonore/blob/main/Compte_Rendu_Chevalier_Bots_Ricci_Phan_GroupeF.pdf', label: 'Compte Rendu' }],
 		logo: Assets.Unknown,
-		name: 'Projet "Télécommande sonore"',
+		name: 'Projet Univérsitaire',
 		period: {
 			from: new Date(2022, 3, 18),
 			to: new Date(2022, 6, 24)
 		},
 		skills: getSkills('Concevoir', 'Implanter', 'Electronique', 'Verifier'),
 		type: 'Projet Conception d\'une télécommande sonore',
+		screenshots: [
+			{
+			label: 'Schéma de câblage du récepteur sonore',
+			src:'https://i.imgur.com/Xkr7unv.png'
+			},
+			{
+			label: 'Câblage de l\'astable permettant de générer le son',
+			src:'hhttps://i.imgur.com/sbisYlf.png'
+			}
+		]
 	}
 ];
 
