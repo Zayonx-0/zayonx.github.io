@@ -23,6 +23,8 @@
 		type: 'projects' | 'experience';
 		url: string;
 	};
+	let value = 0;
+	let description = 0;
 
 	export let data: { skill?: Skill };
 
@@ -114,15 +116,11 @@
 </div>
 
 {#if data.skill.name == "Maintenir"}
-<script>
-    globalThis value = 0;
-    globalThis info = 'Example';
-</script>
 
 <main>
-    <div>
-        <Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
-    </div>
+	<div>
+		<Circularbar bind:value={value} bind:info={description} color="#1cda81"></Circularbar>             
+	</div>        
 </main>
 
 <style>
