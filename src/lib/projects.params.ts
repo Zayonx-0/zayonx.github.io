@@ -204,7 +204,17 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2021, 12, 8)
 		},
 		skills: getSkills('arduino', 'Concevoir', 'Implanter', 'Electronique', 'Verifier', 'Git'),
-		type: 'Projet Carte "SmartLight"',
+		type: 'Projet Universitaire - BUT 1 GEII',
+		screenshots: [
+			{
+			label: 'Schéma de la carte électronique',
+			src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmIz-Xq-aFCktl4o-SzvaIjCHtffBeoNfUw&usqp=CAU'
+			},
+			{
+			label: 'Carte électronique complète',
+			src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmIz-Xq-aFCktl4o-SzvaIjCHtffBeoNfUw&usqp=CAU'
+			}
+		]
 	},
 	{
 		slug: 'Projet Conception d\'une télécommande sonore',
