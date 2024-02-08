@@ -24,7 +24,7 @@
 		url: string;
 	};
 	let value = 30;
-	let description = 'Quick test';
+	let description = '';
 
 	export let data: { skill?: Skill };
 
