@@ -149,6 +149,38 @@ s({
 		logo: Assets.JSON,
 		name: 'JSON'
 	}),
+	s({
+		slug: 'Concevoir',
+		color: 'red',
+		description:
+			`Concevoir un système en adoptant une approche sélective dans ses choix technologiques`,
+		logo: Assets.Concevoir,
+		name: 'Concevoir'
+	}),
+	s({
+		slug: 'Verifier',
+		color: 'orange',
+		description:
+			`Vérifier la conformité d'un système par rapport à un cahier des charges. Élaborer une procédure intégrant une démarche qualité pour valider le fonctionnement d’un système`,
+		logo: Assets.Verifier,
+		name: 'Vérifier'
+	}),
+	s({
+		slug: 'Maintenir',
+		color: 'yellow',
+		description:
+			`Mettre en place une stratégie de maintenance pour garantir un fonctionnement optimal`,
+		logo: Assets.Maintenir,
+		name: 'Maintenir'
+	}),
+	s({
+		slug: 'Implanter',
+		color: 'green',
+		description:
+			`Interagir avec les différents acteurs, lors de l’installation et de la mise en service d’un système, dans une démarche qualité`,
+		logo: Assets.Implanter,
+		name: 'Implanter'
+	}),
 ];
 
 export default MY_SKILLS;
