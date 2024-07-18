@@ -119,8 +119,8 @@
 
 <main>
 	<div>
-		<Circularbar bind:value={value} bind:info={description} bind:discRadius={30} color="#1cda81"></Circularbar>             
-	</div>        
+		<Circularbar bind:value={value} bind:info={description} color="#1cda81" size={10}></Circularbar>             
+	</div>  
 </main>
 
 {/if}
