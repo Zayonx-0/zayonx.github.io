@@ -119,7 +119,7 @@
 
 <main>
 	<div>
-		<Circularbar bind:value={value} bind:info={description} bind:rootWidth={50} bind:rootHeight={50} color="#1cda81"></Circularbar>             
+		<Circularbar bind:value={value} bind:info={description} color="#1cda81"></Circularbar>             
 	</div>  
 </main>
 

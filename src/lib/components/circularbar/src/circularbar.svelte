@@ -13,7 +13,7 @@
     let radius, radiusBtn, xaxis, side;
     let circle, hidCircle, btnCircle;
     let rootEle;                                
-    let rootWidth, rootHeight;             
+    let rootWidth, rootHeight = 40;
     let textLarge, textSmall, percent;
     let max = 100;
     let discRadius = 30;
