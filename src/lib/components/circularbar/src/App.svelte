@@ -33,7 +33,7 @@
         </div>
         <div>
             <dfn>3</dfn>
-            <Circularbar bind:value={value3} checkable="{true}" discRadius="{90}" bind:checked={v3Checked} color="dodgerblue" thickness="15%"></Circularbar>
+            <Circularbar bind:value={value3} checkable="{true}" discRadius="{30}" bind:checked={v3Checked} color="dodgerblue" thickness="15%"></Circularbar>
             <div class="cmd">
                 <input type="range" bind:value={value3} />
             </div>
