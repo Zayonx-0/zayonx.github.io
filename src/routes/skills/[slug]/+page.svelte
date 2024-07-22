@@ -83,7 +83,7 @@
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
 				<!-- Circular bar added here -->
-				<div class="circular-bar-container item-center">
+				<div class="circular-bar-wrapper">
 					<Circularbar {value} size="150" strokeWidth="8" />
 				</div>
 			</Banner>
@@ -120,11 +120,17 @@
 </div>
 
 <style>
+.circular-bar-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	width: 100%;
+}
 .circular-bar-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: -30px;
 	width: 150px;
 	height: 150px;
 }
