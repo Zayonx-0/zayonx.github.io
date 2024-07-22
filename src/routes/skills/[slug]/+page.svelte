@@ -84,7 +84,7 @@
 				<MainTitle>{data.skill.name}</MainTitle>
 				<!-- Circular bar added here -->
 				<div class="circular-bar-container">
-					<Circularbar {value} size="120" strokeWidth="8" />
+					<Circularbar {value} size="150" strokeWidth="8" />
 				</div>
 			</Banner>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
@@ -125,7 +125,7 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 10px;
-	width: 120px; /* Adjust the width to fit your layout */
-	height: 120px; /* Adjust the height to fit your layout */
+	width: 150px;
+	height: 150px;
 }
 </style>
