@@ -111,16 +111,18 @@
 					{/each}
 				</div>
 			</div>
+			<div class="circular-bar-container">
+				<Circularbar {value} size="100" strokeWidth="10" />
+			</div>
 		</div>
 	{/if}
 </div>
 
-{#if data.skill.name == "Maintenir"}
-
-<main>
-	<div style=" text-align: center; padding: 5px; max-width: 700px; width: 100%; margin: 0 auto; height: auto; box-sizing: border-box;">
-		<Circularbar bind:value={value} bind:info={description} color="#1cda81"></Circularbar>             
-	</div>  
-</main>
-
-{/if}
+<style>
+.circular-bar-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+</style>
