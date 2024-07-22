@@ -118,7 +118,7 @@
 {#if data.skill.name == "Maintenir"}
 
 <main>
-	<div>
+	<div style=" text-align: center; padding: 5px; max-width: 700px; width: 100%; margin: 0 auto; height: auto; box-sizing: border-box;">
 		<Circularbar bind:value={value} bind:info={description} color="#1cda81"></Circularbar>             
 	</div>  
 </main>
