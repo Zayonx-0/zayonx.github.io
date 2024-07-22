@@ -124,14 +124,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 10px;
-	width: 100%;
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
 }
 .circular-bar-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 150px;
-	height: 150px;
+	width: 100%;
 }
 </style>
