@@ -83,7 +83,7 @@
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
 				<!-- Circular bar added here -->
-				<div class="circular-bar-container">
+				<div class="circular-bar-container item-center">
 					<Circularbar {value} size="150" strokeWidth="8" />
 				</div>
 			</Banner>
