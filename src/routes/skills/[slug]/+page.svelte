@@ -84,9 +84,9 @@
 				<MainTitle>{data.skill.name}</MainTitle>
 			</Banner>
 			<main>
-				<div>
+				<section>
 					<Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
-				</div>
+				</section>
 			</main>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
@@ -128,17 +128,11 @@
     width: 150px;
     height: 150px;
 }
-    div {
+    section {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 150px;
         height: 150px;
-    }
-    main {
-        text-align: center;
-        padding: 1em;
-        max-width: 240px;
-        margin: 0 auto;
     }
 </style>
