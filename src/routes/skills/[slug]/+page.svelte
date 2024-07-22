@@ -24,7 +24,7 @@
 		url: string;
 	};
 	let value = 30;
-	let description = '';
+	let info = '';
 
 	export let data: { skill?: Skill };
 
@@ -83,9 +83,11 @@
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
 			</Banner>
-			<div class="circular-bar-container">
-				<Circularbar {value} size="150" strokeWidth="8" />
-			</div>
+			<main>
+				<div>
+					<Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
+				</div>
+			</main>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
 					{#if data.skill.description}
@@ -121,9 +123,9 @@
 <style>
 .circular-bar-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
 }
 </style>
