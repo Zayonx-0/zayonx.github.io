@@ -82,11 +82,10 @@
 		<div class="flex flex-col items-center overflow-x-hidden">
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
-				<!-- Circular bar added here -->
-				<div class="circular-bar-wrapper">
-					<Circularbar {value} size="150" strokeWidth="8" />
-				</div>
 			</Banner>
+			<div class="circular-bar-container">
+				<Circularbar {value} size="150" strokeWidth="8" />
+			</div>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
 					{#if data.skill.description}
@@ -120,18 +119,11 @@
 </div>
 
 <style>
-.circular-bar-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 20px;
-	width: 150px;
-	height: 150px;
-}
 .circular-bar-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	margin-top: -10px;
 }
 </style>
