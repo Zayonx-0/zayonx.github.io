@@ -124,7 +124,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 10px;
+	margin-top: -30px;
 	width: 150px;
 	height: 150px;
 }
