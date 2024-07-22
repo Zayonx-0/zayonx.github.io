@@ -125,7 +125,20 @@
 	display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
 }
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+    }
+    main {
+        text-align: center;
+        padding: 1em;
+        max-width: 240px;
+        margin: 0 auto;
+    }
 </style>
