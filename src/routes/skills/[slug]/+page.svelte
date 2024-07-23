@@ -74,7 +74,11 @@
 	onMount(() => {
 		setTimeout(() => {
 			if (sectionElement) {
-				sectionElement.style.width = sectionElement.style.width;
+				let memory = sectionElement.style.width
+				sectionElement.style.width = "151px";
+				setTimeout(() => {
+					sectionElement.style.width = memory;
+				}, 500);
 			}
 		}, 500);
 	});
