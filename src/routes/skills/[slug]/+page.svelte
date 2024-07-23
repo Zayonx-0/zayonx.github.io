@@ -71,7 +71,7 @@
 
 	$: related = data.skill ? getRelatedProjects() : [];
 
-	{#if data.skill.name == "Maintenir" || data.skill.name == "Concevoir" || data.skill.name == "Verifier" || data.skill.name == "Implanter"}
+	if (data.skill.name == "Maintenir" || data.skill.name == "Concevoir" || data.skill.name == "Verifier" || data.skill.name == "Implanter") {
 
 	onMount(() => {
 		setTimeout(() => {
@@ -84,7 +84,7 @@
 			}
 		}, 100);
 	});
-	{/if}
+	}
 </script>
 
 <TabTitle title={computedTitle} />
