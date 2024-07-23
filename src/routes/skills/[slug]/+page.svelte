@@ -78,9 +78,9 @@
 				sectionElement.style.width = "151px";
 				setTimeout(() => {
 					sectionElement.style.width = memory;
-				}, 500);
+				}, 100);
 			}
-		}, 500);
+		}, 100);
 	});
 </script>
 
