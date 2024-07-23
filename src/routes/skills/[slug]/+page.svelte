@@ -72,8 +72,12 @@
 	$: related = data.skill ? getRelatedProjects() : [];
 
 	onMount(() => {
-		// Trigger a resize event to ensure proper rendering
-		window.dispatchEvent(new Event('resize'));
+		setTimeout(() => {
+			if (circularBarElement) {
+				circularBarElement.style.width = '151px';
+				circularBarElement.style.height = '151px';
+			}
+		}, 1000);
 	});
 </script>
 
