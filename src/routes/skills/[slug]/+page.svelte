@@ -72,8 +72,12 @@
 	$: related = data.skill ? getRelatedProjects() : [];
 
 	onMount(() => {
-		// Trigger a resize event to ensure proper rendering
-		window.dispatchEvent(new Event('resize'));
+		setTimeout(() => {
+			if (circularBarElement) {
+				circularBarElement.style.width = '150px';
+				circularBarElement.style.height = '150px';
+			}
+		}, 1000);
 	});
 </script>
 
@@ -115,26 +119,4 @@
 							classes="inline-flex flex-row items-center justify-center"
 							href={`${base}${item.url}`}
 						>
-							<CardLogo src={item.img} alt={item.name} radius={'0px'} size={15} classes="mr-2" />
-							<span class="text-[0.9em]">{item.display}</span>
-						</Chip>
-					{/each}
-				</div>
-			</div>
-		</div>
-	{/if}
-</div>
-
-<style>
-    section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 150px;
-        height: 150px;
-		text-align: center;
-        padding: 1em;
-        max-width: 240px;
-        margin: 0 auto;
-    }
-</style>
+							<CardLogo src={item.img} alt={item.name} radius={'0px
