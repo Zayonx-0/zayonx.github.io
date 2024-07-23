@@ -71,6 +71,8 @@
 
 	$: related = data.skill ? getRelatedProjects() : [];
 
+	{#if data.skill.name == "Maintenir" || data.skill.name == "Concevoir" || data.skill.name == "Verifier" || data.skill.name == "Implanter"}
+
 	onMount(() => {
 		setTimeout(() => {
 			if (sectionElement) {
@@ -82,6 +84,7 @@
 			}
 		}, 100);
 	});
+	{/if}
 </script>
 
 <TabTitle title={computedTitle} />
@@ -96,9 +99,11 @@
 		<div class="flex flex-col items-center overflow-x-hidden">
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
+				{#if data.skill.name == "Maintenir" || data.skill.name == "Concevoir" || data.skill.name == "Verifier" || data.skill.name == "Implanter"}
 				<section bind:this={sectionElement}>
 					<Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
 				</section>
+				{/if}
 			</Banner>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
