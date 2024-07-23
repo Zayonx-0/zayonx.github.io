@@ -119,13 +119,6 @@
 </div>
 
 <style>
-.circular-bar-container {
-	display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-}
     section {
         display: flex;
         justify-content: center;
