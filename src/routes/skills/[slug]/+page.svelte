@@ -83,7 +83,7 @@
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
 				<section>
-					<Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
+					<Circularbar bind:value bind:info color="#1cda81" style="width: 150px; height: 150px;"></Circularbar>             
 				</section>
 			</Banner>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
