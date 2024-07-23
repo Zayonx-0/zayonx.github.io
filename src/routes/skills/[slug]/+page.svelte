@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
 	import CardLogo from '$lib/components/Card/CardLogo.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
@@ -25,6 +26,7 @@
 	};
 	let value = 30;
 	let info = '';
+	let circularBarElement;
 
 	export let data: { skill?: Skill };
 
@@ -68,6 +70,11 @@
 	$: computedTitle = data.skill ? `${data.skill.name} - ${title}` : title;
 
 	$: related = data.skill ? getRelatedProjects() : [];
+
+	onMount(() => {
+		// Trigger a resize event to ensure proper rendering
+		window.dispatchEvent(new Event('resize'));
+	});
 </script>
 
 <TabTitle title={computedTitle} />
@@ -83,7 +90,7 @@
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
 				<section>
-					<Circularbar bind:value bind:info color="#1cda81" style="width: 150px; height: 150px;"></Circularbar>             
+					<Circularbar bind:value bind:info color="#1cda81" bind:this={circularBarElement}></Circularbar>             
 				</section>
 			</Banner>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
