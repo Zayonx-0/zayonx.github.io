@@ -16,7 +16,7 @@
     let rootWidth, rootHeight = 40;
     let textLarge, textSmall, percent;
     let max = 100;
-    let discRadius = 30;
+    let discRadius = 80;
 
     $: calculate(value, rootWidth, rootHeight);
 
