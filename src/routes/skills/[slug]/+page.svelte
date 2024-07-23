@@ -26,7 +26,7 @@
 	};
 	let value = 30;
 	let info = '';
-	let circularBarElement;
+	let sectionElement;
 
 	export let data: { skill?: Skill };
 
@@ -73,11 +73,11 @@
 
 	onMount(() => {
 		setTimeout(() => {
-			if (circularBarElement) {
-				circularBarElement.style.width = '151px';
-				circularBarElement.style.height = '151px';
+			if (sectionElement) {
+				sectionElement.style.width = '151px';
+				sectionElement.style.height = '151px';
 			}
-		}, 1000);
+		}, 500);
 	});
 </script>
 
@@ -93,8 +93,8 @@
 		<div class="flex flex-col items-center overflow-x-hidden">
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
-				<section>
-					<Circularbar bind:value bind:info color="#1cda81" bind:this={circularBarElement}></Circularbar>             
+				<section bind:this={sectionElement}>
+					<Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
 				</section>
 			</Banner>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
