@@ -82,10 +82,10 @@
 		<div class="flex flex-col items-center overflow-x-hidden">
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
-			</Banner>
 				<section>
 					<Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
 				</section>
+			</Banner>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
 					{#if data.skill.description}
