@@ -74,8 +74,7 @@
 	onMount(() => {
 		setTimeout(() => {
 			if (sectionElement) {
-				sectionElement.style.width = '151px';
-				sectionElement.style.height = '151px';
+				sectionElement.style.width = sectionElement.style.width;
 			}
 		}, 500);
 	});
