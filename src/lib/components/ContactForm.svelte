@@ -38,7 +38,7 @@
     <input type="text" id="subject" bind:value={subject} required>
 
     <label for="message">Message:</label>
-    <textarea id="message" bind:value={message} required style="height: 400px;"></textarea>
+    <textarea id="message" bind:value={message} required style="height: 200px;"></textarea>
 
     <button type="submit">Envoyer le message</button>
 </form>
