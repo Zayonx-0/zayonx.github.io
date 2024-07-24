@@ -50,9 +50,6 @@
         max-width: 400px;
         margin: auto;
         width: 400px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
     label, input, textarea, button {
