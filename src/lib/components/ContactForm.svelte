@@ -11,7 +11,6 @@
             message
         };
 
-        // Replace this URL with your form submission endpoint
         const response = await fetch('https://formspree.io/f/xwpevwbq', { // replace with your form endpoint
             method: 'POST',
             headers: {
@@ -39,7 +38,7 @@
     <input type="text" id="subject" bind:value={subject} required>
 
     <label for="message">Message:</label>
-    <textarea id="message" bind:value={message} required></textarea>
+    <textarea id="message" bind:value={message} required style="height: 400px;"></textarea>
 
     <button type="submit">Envoyer le message</button>
 </form>
