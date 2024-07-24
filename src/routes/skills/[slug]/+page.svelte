@@ -25,8 +25,21 @@
 		url: string;
 	};
 	let value = 30;
-	let info = '';
-	let sectionElement;
+	let info = '30%';
+	if (data.skill.name == "Maintenir") {
+		value = 30;
+		info = 'de la compétence acquise';
+	} else if (data.skill.name == "Concevoir") {
+		value = 50;
+		info = 'de la compétence acquise';
+	} else if (data.skill.name == "Vérifier") {
+		value = 70;
+		info = 'de la compétence acquise';
+	} else if (data.skill.name == "Implanter") {
+		value = 90;
+		info = 'de la compétence acquise';
+	}
+
 
 	export let data: { skill?: Skill };
 
