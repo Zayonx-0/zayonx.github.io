@@ -14,8 +14,7 @@
                 <Chip size={'1.25em'}>Voir</Chip>
             </a>
         {:else}
-            <Chip>Pour des raisons de confidentalité, le CV n'est pas disponible ici.</Chip>
-			<chip>Vous pouvez remplir le formulaire ci-dessous pour me contacter.</chip>
+            <Chip>Veuillez remplir le formulaire ci-dessous si vous souhaitez obtenir mon CV ou me contacter.</Chip>
         {/if}
     </div>
     <div class="contact-form">
