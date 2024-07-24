@@ -71,7 +71,7 @@
 
 	$: related = data.skill ? getRelatedProjects() : [];
 
-	if (data.skill.name == "Maintenir" || data.skill.name == "Concevoir" || data.skill.name == "Verifier" || data.skill.name == "Implanter") {
+	if (data.skill.name == "Maintenir" || data.skill.name == "Concevoir" || data.skill.name == "Vérifier" || data.skill.name == "Implanter") {
 
 	onMount(() => {
 		setTimeout(() => {
@@ -99,7 +99,7 @@
 		<div class="flex flex-col items-center overflow-x-hidden">
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
-				{#if data.skill.name == "Maintenir" || data.skill.name == "Concevoir" || data.skill.name == "Verifier" || data.skill.name == "Implanter"}
+				{#if data.skill.name == "Maintenir" || data.skill.name == "Concevoir" || data.skill.name == "Vérifier" || data.skill.name == "Implanter"}
 				<section bind:this={sectionElement}>
 					<Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
 				</section>
