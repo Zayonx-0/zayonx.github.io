@@ -26,6 +26,7 @@
 	};
 	let value = 30;
 	let info = '30%';
+	let sectionElement;
 	if (data.skill.name == "Maintenir") {
 		value = 30;
 		info = 'de la compétence acquise';
