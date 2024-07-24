@@ -26,6 +26,7 @@
 	};
 	let value = 30;
 	let info = '30%';
+	let color = ""
 	let sectionElement;
 
 
@@ -77,6 +78,7 @@
 	} else if (data.skill.name == "Vérifier") {
 		value = 70;
 		info = 'de la compétence acquise';
+		color = "#ED8C51"
 	} else if (data.skill.name == "Implanter") {
 		value = 90;
 		info = 'de la compétence acquise';
@@ -116,7 +118,7 @@
 				<MainTitle>{data.skill.name}</MainTitle>
 				{#if data.skill.name == "Maintenir" || data.skill.name == "Concevoir" || data.skill.name == "Vérifier" || data.skill.name == "Implanter"}
 				<section bind:this={sectionElement}>
-					<Circularbar bind:value bind:info color="#1cda81"></Circularbar>             
+					<Circularbar bind:value bind:info bind:color></Circularbar>             
 				</section>
 				{/if}
 			</Banner>
