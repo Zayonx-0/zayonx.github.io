@@ -1,65 +1,41 @@
 <script>
-	import Chip from '$lib/components/Chip/Chip.svelte';
-	import CommonPage from '$lib/components/CommonPage.svelte';
-	import { RESUME } from '$lib/params';
+    import Chip from '$lib/components/Chip/Chip.svelte';
+    import CommonPage from '$lib/components/CommonPage.svelte';
+    import { RESUME } from '$lib/params';
+    import ContactForm from '$lib/components/ContactForm.svelte'; // Adjust the path if necessary
 
-	const { item, title } = RESUME;
+    const { item, title } = RESUME;
 </script>
 
 <CommonPage {title}>
-	<div class="resume">
-		{#if item}
-			<a href={item}>
-				<Chip size={'1.25em'}>Voir</Chip>
-			</a>
-		{:else}
-			<Chip>Oups ! CV Non disponible, veuillez envoyer un mail pour le demander.</Chip>
-		{/if}
-	</div>
+    <div class="resume">
+        {#if item}
+            <a href={item}>
+                <Chip size={'1.25em'}>Voir</Chip>
+            </a>
+        {:else}
+            <Chip>Pour des raisons de confidentalité, le CV n'est pas disponible ici.</Chip>
+			<chip>Vous pouvez remplir le formulaire ci-dessous pour me contacter.</chip>
+        {/if}
+    </div>
+    <div class="contact-form">
+        <ContactForm />
+    </div>
 </CommonPage>
 
 <style lang="scss">
-	.resume {
-		display: flex;
-		justify-content: center;
-		margin-top: 20px;
+    .resume {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
 
-		& > a {
-			color: inherit;
-		}
-	}
+        & > a {
+            color: inherit;
+        }
+    }
+    .contact-form {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
 </style>
-
-<!-- Code for the form (unfinished)
-
-
-			<Chip></Chip>
-			<script>
-
-				function handleSubmit() {
-					// Logique de soumission du formulaire
-					console.log('Sujet:', sujet);
-					console.log('Message:', message);
-					console.log('Message:', message);
-
-					// Réinitialiser les champs du formulaire
-					sujet = '';
-					message = '';
-				}
-			</script>
-
-			<form on:submit|preventDefault={handleSubmit}>
-				<label>
-					Nom:
-					<input type="Sujet" bind:value={sujet} />
-				</label>
-
-				<label>
-					Message:
-					<textarea bind:value={message}></textarea>
-				</label>
-
-				<button type="submit">Envoyer</button>
-			</form>
-
--->
