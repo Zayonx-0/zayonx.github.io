@@ -72,9 +72,11 @@
 	if (data.skill.name == "Maintenir") {
 		value = 30;
 		info = 'de la compétence acquise';
+		color = "#EFBA12"
 	} else if (data.skill.name == "Concevoir") {
 		value = 50;
 		info = 'de la compétence acquise';
+		color = "#B80805"
 	} else if (data.skill.name == "Vérifier") {
 		value = 70;
 		info = 'de la compétence acquise';
@@ -82,6 +84,7 @@
 	} else if (data.skill.name == "Implanter") {
 		value = 90;
 		info = 'de la compétence acquise';
+		color = "#8CC750"
 	}
 
 	$: computedTitle = data.skill ? `${data.skill.name} - ${title}` : title;
