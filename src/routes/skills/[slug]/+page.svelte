@@ -70,19 +70,19 @@
 	};
 
 	if (data.skill.name == "Maintenir") {
-		value = 30;
+		value = 60;
 		info = 'de la compétence acquise';
 		color = "#EFBA12"
 	} else if (data.skill.name == "Concevoir") {
-		value = 50;
+		value = 100;
 		info = 'de la compétence acquise';
 		color = "#B80805"
 	} else if (data.skill.name == "Vérifier") {
-		value = 70;
+		value = 100;
 		info = 'de la compétence acquise';
 		color = "#ED8C51"
 	} else if (data.skill.name == "Implanter") {
-		value = 90;
+		value = 100;
 		info = 'de la compétence acquise';
 		color = "#8CC750"
 	}
