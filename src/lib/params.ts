@@ -20,7 +20,7 @@ export const NavBar = {
 	home: 'Home',
 	personal: 'Projets',
 	career: 'Expériences',
-	resume: 'CV',
+	resume: 'Contact',
 	skills: 'Compétences',
 	Education: 'Études'
 };
@@ -83,7 +83,7 @@ export const SKILLS: SkillsPageParams = {
 };
 
 export const RESUME: ResumePageParams = {
-	title: 'CV',
+	title: 'Contact',
 	item: ''
 	//item: './cv.pdf'
 };
