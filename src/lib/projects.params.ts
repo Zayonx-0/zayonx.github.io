@@ -101,7 +101,7 @@ const MY_PROJECTS: Array<Project> = [
 				from: new Date(2024, 8, 1),
 				to: new Date(2024,8,28)
 			},
-			skills: getSkills('C', 'Rust', 'NodeJs', 'Git', 'opencl'),
+			skills: getSkills('C', 'rust', 'NodeJs', 'Git', 'opencl'),
 			type: 'Bruteforcing de phrase de récupération Mnemonic',
 			screenshots: [
 				{
