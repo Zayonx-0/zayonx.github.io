@@ -7,7 +7,7 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'Projet "NetTest"',
 		color: '#5e95e3',
 		description:
-			'Projet réalisé en entreprise, consistant à la réalisation d\'un outil de test de débit internet. Conçut pour être utilisé par les techniciens de l\'entreprise. Réalisé avec Python ainsi que l\'outil de test "Iperf".\NCe script permet entre autre d\'automatiser ainsi que de rendre possible l\'auto-test d\'un équipement concernant ces interfaces réseau.',
+			'Projet réalisé en entreprise, consistant à la réalisation d\'un outil de test de débit internet. Conçut pour être utilisé par les techniciens de l\'entreprise. Réalisé avec Python ainsi que l\'outil de test "Iperf".\nCe script permet entre autre d\'automatiser ainsi que de rendre possible l\'auto-test d\'un équipement concernant ces interfaces réseau.',
 		shortDescription:
 			'Projet réalisé en entreprise, consistant à la réalisation d\'un outil de test de débit internet.',
 		links: [{ to: 'https://github.com/Zayonx-0/zayonx-0.github.io', label: 'GitHub' }],

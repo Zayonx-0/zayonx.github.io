@@ -6,7 +6,8 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'Apprenti Technicien Réparation',
 		company: 'Kontron Modual Computers',
-		description: 'Maintenance et réparation de cartes électroniques. Développement de logiciels de tests.',
+		description: = "En tant qu'apprenti technicien en réparation chez Kontron Modular Computers, j'ai acquis une expérience précieuse dans la maintenance et la réparation de systèmes électroniques complexes. Mon rôle principal consistait à diagnostiquer, réparer et tester des équipements critiques, notamment des cartes VME et VPX, utilisées dans des applications industrielles et militaires. J'ai également participé à l'amélioration continue des processus de réparation en automatisant certaines tâches à l'aide de scripts Python, ce qui a permis de gagner en efficacité et de réduire les délais de traitement.\n\nAu-delà des aspects techniques, cette alternance m'a permis de développer des compétences transversales telles que la gestion du temps, la rigueur dans le respect des procédures, et la capacité à travailler sous pression dans un environnement exigeant. Cette expérience m'a non seulement permis de consolider mes connaissances théoriques, mais aussi de les appliquer dans des situations réelles, contribuant ainsi à la satisfaction des clients et au maintien de la qualité des produits de l'entreprise."
+		,
 		contract: ContractType.Apprenticeship,
 		type: 'Technicien Réparation',
 		location: 'La Garde, France',
