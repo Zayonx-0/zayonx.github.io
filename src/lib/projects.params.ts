@@ -106,7 +106,7 @@ const MY_PROJECTS: Array<Project> = [
 			screenshots: [
 				{
 					label: 'Exemple de résultat du bruteforcing',
-					src: 'https://i.imgur.com/result.png'
+					src: 'https://i.imgur.com/sLNukUH.jpeg'
 				}
 			]
 	},
