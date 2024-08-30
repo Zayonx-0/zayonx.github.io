@@ -86,7 +86,6 @@ const MY_PROJECTS: Array<Project> = [
 			src:'https://i.imgur.com/tPaJgJL.png'
 			}
 		]
-https://github.com/Zayonx-0/bip84_solver
 	},
 		{
 			slug: 'Projet "BIP84 Bruteforcer"',
