@@ -95,13 +95,13 @@ const MY_PROJECTS: Array<Project> = [
 			shortDescription:
 				'Projet de développement d\'un bruteforcer pour les portefeuilles Bitcoin BIP84.',
 			links: [{ to: 'https://github.com/Zayonx-0/bip84_solver', label: 'GitHub' }],
-			logo: Assets.Python,
+			logo: Assets.opencl,
 			name: 'Projet "BIP84 Bruteforcer"',
 			period: {
 				from: new Date(2022, 8, 1),
 				to: new Date()
 			},
-			skills: getSkills('C', 'Rust', 'NodeJs', 'Git'),
+			skills: getSkills('C', 'Rust', 'NodeJs', 'Git', 'opencl'),
 			type: 'Bruteforcing de clés privées',
 			screenshots: [
 				{
