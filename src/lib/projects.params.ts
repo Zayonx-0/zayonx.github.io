@@ -101,11 +101,11 @@ const MY_PROJECTS: Array<Project> = [
 				from: new Date(2024, 8, 1),
 				to: new Date(2024,8,28)
 			},
-			skills: getSkills('C', 'rust', 'NodeJs', 'Git', 'opencl'),
+			skills: getSkills('C', 'rust', 'nodess', 'Git', 'opencl'),
 			type: 'Bruteforcing de phrase de récupération Mnemonic',
 			screenshots: [
 				{
-					label: 'Exemple de résultat du bruteforcing',
+					label: 'Exemple de l\'interface de bruteforcing en cours',
 					src: 'https://i.imgur.com/sLNukUH.jpeg'
 				}
 			]
