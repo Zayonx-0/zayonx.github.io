@@ -23,6 +23,14 @@ const MY_SKILLS = [
 		name: 'Javascript'
 	}),
 	s({
+		slug: 'rust',
+		color: 'orange',
+		description:
+			`Rust est un langage de programmation moderne qui se distingue par sa performance, sa sécurité et son souci de la concurrence\n Conçu initialement par Mozilla et maintenant maintenu par la communauté open-source, Rust a rapidement gagné en popularité pour sa capacité à combiner les performances des langages bas-niveau comme C et C++ avec des garanties de sécurité mémoire robustes.`,
+		logo: Assets.Rust,
+		name: 'Rust'
+	}),
+	s({
 		slug: 'arduino',
 		color: 'green',
 		description:

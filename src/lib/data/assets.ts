@@ -85,6 +85,7 @@ const Assets = {
 	univtln: a('univ-tln.png'),
 	coudon: a('coudon.png'),
 	geii: a('geii.png'),
+	opencl: a('opencl.png', 'opencl_dark.png'),
 };
 
 export default Assets;

@@ -78,7 +78,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2021, 3, 18),
 			to: new Date(2021, 5, 20)
 		},
-		skills: getSkills('Python'),
+		skills: getSkills('Python', "Git"),
 		type: 'Projet Scolaire - Lycée',
 		screenshots: [
 			{
@@ -86,7 +86,34 @@ const MY_PROJECTS: Array<Project> = [
 			src:'https://i.imgur.com/tPaJgJL.png'
 			}
 		]
-
+https://github.com/Zayonx-0/bip84_solver
+	},
+		{
+			slug: 'Projet "BIP84 Bruteforcer"',
+			color: '#ff3e00',
+			description:
+				'Projet de développement d\'un bruteforcer pour les portefeuilles Bitcoin BIP84 (SegWit Native). Le bruteforcer tente de deviner les clés privées correspondantes aux adresses Bitcoin BIP84 en utilisant une méthode de force brute. Réalisé avec Python.',
+			shortDescription:
+				'Projet de développement d\'un bruteforcer pour les portefeuilles Bitcoin BIP84.',
+			links: [{ to: 'https://github.com/Zayonx-0/bip84_solver', label: 'GitHub' }],
+			logo: Assets.Python,
+			name: 'Projet "BIP84 Bruteforcer"',
+			period: {
+				from: new Date(2022, 8, 1),
+				to: new Date()
+			},
+			skills: getSkills('C', 'Rust', 'NodeJs', 'Git'),
+			type: 'Bruteforcing de clés privées',
+			screenshots: [
+				{
+					label: 'Exemple de clé privée Bitcoin BIP84',
+					src: 'https://i.imgur.com/example.png'
+				},
+				{
+					label: 'Exemple de résultat du bruteforcing',
+					src: 'https://i.imgur.com/result.png'
+				}
+			]
 	},
 	{
 		slug: 'Projet "TradeBot"',
@@ -102,7 +129,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2017, 3, 18),
 			to: new Date(2022, 5, 20)
 		},
-		skills: getSkills('nodejs', 'JSON'),
+		skills: getSkills('nodejs', 'JSON', "Git"),
 		type: 'Projet Personel',
 		screenshots: [
 			{
@@ -125,7 +152,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2023, 12, 31),
 			to: new Date(2024, 1, 20)
 		},
-		skills: getSkills('SQL', 'PHP', 'Verifier'),
+		skills: getSkills('SQL', 'PHP', 'Verifier', "Git"),
 		type: 'Projet SQL',
 		screenshots: [
 			{
