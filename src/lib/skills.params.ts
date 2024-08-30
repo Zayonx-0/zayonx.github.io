@@ -162,7 +162,7 @@ s({
 		color: 'purple',
 		description:
 			`OpenCL (Open Computing Language) est un framework open-source pour la programmation parallèle sur des architectures hétérogènes. Il permet d'utiliser efficacement les ressources de calcul des processeurs multi-cœurs, des GPU et d'autres accélérateurs matériels. OpenCL offre une interface de programmation portable et flexible, ce qui permet aux développeurs d'écrire du code une fois et de l'exécuter sur différents types de périphériques. Il est largement utilisé dans les domaines tels que la vision par ordinateur, la simulation physique, l'apprentissage automatique et d'autres applications nécessitant des calculs intensifs.`,
-		logo: Assets.OpenCL,
+		logo: Assets.opencl,
 		name: 'OpenCL'
 	}),
 	s({
