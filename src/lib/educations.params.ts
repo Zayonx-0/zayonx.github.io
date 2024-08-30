@@ -12,7 +12,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		period: { from: new Date(2021, 9, 1), to: new Date(2024, 8, 30)},
 		shortDescription: 'Université de Toulon, Département Génie Électrique et Informatique Industrielle',
 		slug: 'dummy-education-item',
-		subjects: ['Anglais', 'Electronique', 'Electrotechnique', 'Maths', 'Physique-Appliquée', 'Informatique Industrielle', 'Automatique', 'Réseaux', 'Systèmes Embarqués', 'Culture Générale', 'Communication', 'Projets', 'Base de données', 'Programmation']
+		subjects: ['Anglais', 'Electronique', 'Electrotechnique', 'Maths', 'Physique-Appliquée', 'Informatique Industrielle', 'Automatique', 'Réseaux', 'Systèmes Embarqués', 'Culture Générale', 'Communication', 'Projets', 'Base de données', 'Programmation', 'Concevoir', 'Vérifier', 'Maintenir', 'Implanter']
 	},
 	{
 		degree: 'Baccalauréat options Maths, Numérique et Sciences Informatiques, Physique-Chimie',
