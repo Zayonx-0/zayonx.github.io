@@ -23,7 +23,7 @@ const Assets = {
 	Numpy: a('numpy.svg'),
 	Pandas: a('pandas.svg'),
 	RabbitMQ: a('rabbitmq.svg'),
-	Rust: a('rust_light.svg', 'rust.svg'),
+	Rust: a('rust_light.png', 'rust.svg'),
 	Scrapy: a('scrapy.png'),
 	Selenium: a('selenium.svg'),
 	Docker: a('docker.svg'),
