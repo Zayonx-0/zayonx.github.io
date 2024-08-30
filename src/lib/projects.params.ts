@@ -91,23 +91,19 @@ const MY_PROJECTS: Array<Project> = [
 			slug: 'Projet "BIP84 Bruteforcer"',
 			color: '#ff3e00',
 			description:
-				'Projet de développement d\'un bruteforcer pour les portefeuilles Bitcoin BIP84 (SegWit Native). Le bruteforcer tente de deviner les clés privées correspondantes aux adresses Bitcoin BIP84 en utilisant une méthode de force brute. Réalisé avec Python.',
+				'Projet de développement d\'un bruteforcer pour les portefeuilles Bitcoin BIP84 (SegWit Native). \n Réalisé à l\'aide de Rust et de OpenCL pour effectuer les calculs sur cartes graphiques.\n Le programme compilé utilisera toutes les cartes graphiques disponibles sur un système afin d\'effectuer les calculs.\nEn entrée, nous utilisons une phrase de récupération Mnemonic dans laquelle il manque X mots.\nIl faudra aussi renseigné l\'addresse du portefeuille que nous souhaitons récupérer.\nUn serveur centralisé permettra de distribuer les tâches de bruteforcing à l\'ensemble des clients connectés.\n Une fois qu\'un trouve la solution, il renvoi l\'information au serveur centralisé.',
 			shortDescription:
 				'Projet de développement d\'un bruteforcer pour les portefeuilles Bitcoin BIP84.',
 			links: [{ to: 'https://github.com/Zayonx-0/bip84_solver', label: 'GitHub' }],
 			logo: Assets.opencl,
 			name: 'Projet "BIP84 Bruteforcer"',
 			period: {
-				from: new Date(2022, 8, 1),
-				to: new Date()
+				from: new Date(2024, 8, 1),
+				to: new Date(2024,8,28)
 			},
 			skills: getSkills('C', 'Rust', 'NodeJs', 'Git', 'opencl'),
-			type: 'Bruteforcing de clés privées',
+			type: 'Bruteforcing de phrase de récupération Mnemonic',
 			screenshots: [
-				{
-					label: 'Exemple de clé privée Bitcoin BIP84',
-					src: 'https://i.imgur.com/example.png'
-				},
 				{
 					label: 'Exemple de résultat du bruteforcing',
 					src: 'https://i.imgur.com/result.png'
