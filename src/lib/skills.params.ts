@@ -23,14 +23,6 @@ const MY_SKILLS = [
 		name: 'Javascript'
 	}),
 	s({
-		slug: 'rust',
-		color: 'orange',
-		description:
-			`Rust est un langage de programmation moderne qui se distingue par sa performance, sa sécurité et son souci de la concurrence\n Conçu initialement par Mozilla et maintenant maintenu par la communauté open-source, Rust a rapidement gagné en popularité pour sa capacité à combiner les performances des langages bas-niveau comme C et C++ avec des garanties de sécurité mémoire robustes.`,
-		logo: Assets.Rust,
-		name: 'Rust'
-	}),
-	s({
 		slug: 'arduino',
 		color: 'green',
 		description:
@@ -132,6 +124,14 @@ const MY_SKILLS = [
 			`Docker est une plateforme open-source qui permet de créer, déployer et gérer des conteneurs. Les conteneurs sont des environnements isolés et légers qui encapsulent une application et toutes ses dépendances. Grâce à Docker, vous pouvez packager votre application avec toutes ses dépendances dans un conteneur, ce qui garantit une portabilité et une reproductibilité maximales. Les conteneurs Docker sont faciles à partager, à déployer et à mettre à l'échelle, ce qui en fait un outil populaire pour le développement et le déploiement d'applications. - Utilisation de Docker pour la création, le déploiement et la gestion de conteneurs.`,
 		logo: Assets.Docker,
 		name: 'Docker'
+	}),
+	s({
+		slug: 'rust',
+		color: 'orange',
+		description:
+			`Rust est un langage de programmation moderne qui se distingue par sa performance, sa sécurité et son souci de la concurrence\n Conçu initialement par Mozilla et maintenant maintenu par la communauté open-source, Rust a rapidement gagné en popularité pour sa capacité à combiner les performances des langages bas-niveau comme C et C++ avec des garanties de sécurité mémoire robustes.`,
+		logo: Assets.Rust,
+		name: 'Rust'
 	}),
 s({
 	slug: 'PHP',
